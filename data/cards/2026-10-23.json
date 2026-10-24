@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-23",
+  "weekday": "금",
+  "note": "",
+  "routine": "복습 3분 → 새 내용 7분 → 소리 내어 3번 읽기 3분 → 오늘 쓸 표현 1개 고르기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (어제 10/22 표현, 영어로 떠올려 보기)",
+    "items": [
+      {"prompt": "(사실·자료가 맞는지) 확인하다 — check 대신", "answer": "verify", "flag": ""},
+      {"prompt": "(차이·금액이) 상당한, 큰 — big 대신", "answer": "significant", "flag": ""},
+      {"prompt": "실행 가능한, 현장에서 해 볼 만한", "answer": "feasible", "flag": ""},
+      {"prompt": "(가격·조건을) 협상하다", "answer": "negotiate", "flag": ""},
+      {"prompt": "아직 처리·제출되지 않은, 미결의", "answer": "outstanding", "flag": ""},
+      {"prompt": "~인지 확인해 주시겠어요? (패턴)", "answer": "Could you confirm whether ~?", "flag": ""},
+      {"prompt": "~ 건으로 다시 연락드립니다 (패턴)", "answer": "I'm following up on ~", "flag": ""},
+      {"prompt": "~하면 우선 ~부터 해 볼 수 있습니다 (패턴)", "answer": "If ~, we could ~ first.", "flag": ""}
+    ]
+  },
+  "cover_practice": [],
+  "words": [
+    {"word": "obtain", "pos": "v.", "meaning": "얻다, 받아 내다 — get 대신", "example": "Please obtain a quote from the visa agent PIT uses.", "collocations": "obtain approval / obtain a work permit"},
+    {"word": "log", "pos": "v.", "meaning": "(결과·수치를) 기록하다 — note 대신", "example": "Please log the roller temperature during the test.", "collocations": "log the results / log each case"},
+    {"word": "comply with", "pos": "v.", "meaning": "(규정·기준을) 준수하다 — meet 대신", "example": "SEVICH complies with the buyer RSL.", "collocations": "comply with the RSL / fully comply with"},
+    {"word": "assign", "pos": "v.", "meaning": "(사람·업무를) 배정하다 — ask ~ to do 대신", "example": "Please assign one packing staff to check the GOH loading.", "collocations": "assign a task / assign someone to ~"},
+    {"word": "brief", "pos": "v.", "meaning": "(짧게) 설명하다, 브리핑하다 — explain verbally 대신", "example": "Please brief the team leaders on the new attendance rule.", "collocations": "brief someone on ~ / a short briefing"}
+  ],
+  "patterns": [
+    {"pattern": "Once ~, please ~.", "meaning": "~이 끝나면 ~해 주세요 (순서 지시)", "skeleton": "", "email": "Once the test is done, please send me the photos.", "spoken": "When it's done, send me the photos."},
+    {"pattern": "Until ~, please continue to ~.", "meaning": "~ 전까지는 계속 ~해 주세요 (임시 조치)", "skeleton": "", "email": "Until we confirm the result, please continue to use KMK 722 only for the roller.", "spoken": "For now, keep using the old one."},
+    {"pattern": "I'd like to highlight ~", "meaning": "~을 짚고 넘어가고 싶습니다 (강조·이견 제시)", "skeleton": "", "email": "I'd like to highlight two points before we decide.", "spoken": "Two things I want to mention."}
+  ],
+  "rewrite": {
+    "original": "Please explain this to the managers verbally by Saturday (10/24) and let me know.",
+    "improved": "Please brief the managers on this by Saturday (10/24) and let me know once it's done.",
+    "note": "explain ~ verbally → brief ~ on: 말로 짧게 설명하는 일을 한 단어로. let me know → let me know once it's done: 무엇을 알려 달라는지(완료 여부) 분명해짐."
+  },
+  "source": "10/21~22 보낸 메일(Asanka 비자 견적, 팀리더 ABC 근태 기준, KMK 722 약품 테스트), 받은 메일(Trinh Do GOH 적입 의견)"
+}

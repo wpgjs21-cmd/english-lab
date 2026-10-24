@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>업무 영어</title>
+<meta name="description" content="매일 영어카드, 토요일 주간시험, 성적표, 표현 사전">
+<meta name="theme-color" content="#1f6f5f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="업무 영어">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <span class="brand">업무 영어</span>
+    <span id="top-right" class="top-right"></span>
+  </div>
+</header>
+<main id="app" class="app"><p class="muted">불러오는 중…</p></main>
+<nav class="tabs" id="tabs">
+  <a href="#/card" data-tab="card"><span class="ic">▦</span>카드</a>
+  <a href="#/test" data-tab="test"><span class="ic">✎</span>시험</a>
+  <a href="#/scores" data-tab="scores"><span class="ic">▲</span>성적</a>
+  <a href="#/dict" data-tab="dict"><span class="ic">≡</span>사전</a>
+  <a href="#/brief" data-tab="brief"><span class="ic">▶</span>브리핑</a>
+  <a href="#/settings" data-tab="settings"><span class="ic">⚙</span>설정</a>
+</nav>
+<div id="toast" class="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

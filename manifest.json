@@ -1,0 +1,10 @@
+{
+  "name": "업무 영어",
+  "short_name": "업무 영어",
+  "start_url": "./#/card",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f5",
+  "theme_color": "#1f6f5f",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }, { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" }]
+}
