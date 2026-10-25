@@ -444,7 +444,7 @@
       <div class="sticky-ctl row">
         <button class="primary" id="play">▶ 처음부터</button><button id="pause">∥ 일시정지</button><button id="stop">■ 정지</button>
         <select id="rate" style="width:auto"><option value="0.75">느리게</option><option value="0.9">보통</option><option value="1">빠르게</option></select>
-        <button class="tiny" id="sound-test">소리 테스트</button>
+        <button class="tiny" id="sound-test">소리 테스트</button><button class="tiny" id="diag">진단</button>
       </div>
       <p class="small muted" id="brief-status">정지</p>
       <div class="card" id="paras">${b.paragraphs.map((p, k) => `<div class="para ${isHead(p) ? 'heading' : ''}" data-k="${k}">${esc(p)}</div>`).join('')}</div>
@@ -486,6 +486,44 @@
     $('#pause').onclick = () => { if (!('speechSynthesis' in window)) return; if (speechSynthesis.paused) { speechSynthesis.resume(); $('#pause').textContent = '∥ 일시정지'; } else { speechSynthesis.pause(); $('#pause').textContent = '▶ 이어서'; } };
     $('#stop').onclick = () => { if (briefRun) briefRun.stop = true; clearTimeout(watchdog); stopSpeak(); mark(-1); status('정지'); };
     $('#sound-test').onclick = () => { if (briefRun) briefRun.stop = true; status('소리 테스트…'); speak('This is a sound test. If you can hear this, the briefing will work.', { onstart: () => status('소리 테스트 재생 중'), onend: () => status('소리 테스트 끝') }); };
+    $('#diag').onclick = () => {
+      if (briefRun) briefRun.stop = true;
+      const ss = 'speechSynthesis' in window ? speechSynthesis : null;
+      const vs = ss ? ss.getVoices() : [];
+      const ev = [];
+      const t0 = Date.now();
+      const report = () => {
+        const r = [
+          `기기: ${navigator.userAgent.replace(/Mozilla\/5.0 \(/, '').slice(0, 70)}`,
+          `홈화면 앱: ${window.navigator.standalone ? '예' : '아니오'}`,
+          `음성 합성 지원: ${ss ? '예' : '아니오'} · 설치 음성 ${vs.length}개 · 영어 ${vs.filter(v => /^en/i.test(v.lang)).length}개`,
+          `선택 음성: ${voice ? voice.name + ' (' + voice.lang + ')' : '없음(기본)'}`,
+          `상태: speaking=${ss ? ss.speaking : '-'} pending=${ss ? ss.pending : '-'} paused=${ss ? ss.paused : '-'}`,
+          `이벤트: ${ev.join(' → ') || '없음(3초 동안 시작 신호 없음)'}`,
+          `볼륨/무음: 브라우저로는 확인 불가 → 측면 스위치·볼륨 직접 확인`,
+        ].join('\n');
+        status(r);
+        const el = $('#brief-status'); if (el) el.style.whiteSpace = 'pre-wrap';
+        try { navigator.clipboard.writeText(r); toast('진단 결과를 복사했습니다. 채팅에 붙여 넣으세요'); } catch {}
+      };
+      if (!ss) { report(); return; }
+      if (ss.paused) ss.resume();
+      // 1) 선택 음성으로, 2) 2초 뒤에도 시작 신호가 없으면 기본 음성·짧은 문장으로 한 번 더
+      const u = new SpeechSynthesisUtterance('Testing one two three.');
+      u.lang = 'en-US'; if (voice) u.voice = vs.find(v => v.voiceURI === voice.voiceURI) || null; u.rate = 1; u.volume = 1;
+      u.onstart = () => ev.push(`시작(${Date.now() - t0}ms)`); u.onend = () => ev.push('끝'); u.onerror = e => ev.push(`오류:${e.error}`);
+      utterKeep.push(u);
+      if (ss.speaking || ss.pending) ss.cancel();
+      setTimeout(() => ss.speak(u), 150);
+      setTimeout(() => {
+        if (!ev.some(x => x.startsWith('시작'))) {
+          const u2 = new SpeechSynthesisUtterance('Hello'); u2.lang = 'en-US'; u2.volume = 1;
+          u2.onstart = () => ev.push('기본음성 시작'); u2.onend = () => ev.push('기본음성 끝'); u2.onerror = e => ev.push(`기본음성 오류:${e.error}`);
+          utterKeep.push(u2); ss.cancel(); setTimeout(() => ss.speak(u2), 150);
+          setTimeout(report, 2500);
+        } else report();
+      }, 2500);
+    };
     document.addEventListener('visibilitychange', () => { if (document.hidden && briefRun && !briefRun.stop) status('화면이 꺼지면 아이폰은 재생을 멈춥니다. 다시 열고 문단을 누르세요.'); });
     app.querySelectorAll('.para').forEach(p => p.onclick = () => playFrom(Number(p.dataset.k)));
   }
