@@ -60,12 +60,20 @@
     voice = (S.voiceURI && vs.find(v => v.voiceURI === S.voiceURI)) || vs[0] || null;
   }
   if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
-  function speak(text, { onend } = {}) {
-    if (!('speechSynthesis' in window)) { toast('이 브라우저는 음성을 지원하지 않습니다'); return; }
+  // iOS 사파리 주의: cancel() 직후 speak()는 묵음이 되기 쉬워 잠깐 띄운다. 발화 객체는 GC되지 않게 붙잡는다.
+  const utterKeep = []; let lastSpeakStart = 0;
+  function speak(text, { onend, onstart, onerror } = {}) {
+    if (!('speechSynthesis' in window)) { toast('이 브라우저는 음성을 지원하지 않습니다'); return null; }
     const u = new SpeechSynthesisUtterance(text.replace(/~/g, 'something').replace(/\[.*?\]/g, ''));
-    u.lang = 'en-US'; if (voice) u.voice = voice; u.rate = S.rate || 0.9;
-    if (onend) u.onend = onend;
-    speechSynthesis.speak(u);
+    u.lang = 'en-US'; u.rate = S.rate || 0.9; u.volume = 1;
+    if (voice) { const live = speechSynthesis.getVoices().find(v => v.voiceURI === voice.voiceURI); if (live) u.voice = live; }
+    u.onstart = () => { lastSpeakStart = Date.now(); if (onstart) onstart(); };
+    u.onend = () => { if (onend) onend(); };
+    u.onerror = e => { if (e.error === 'interrupted' || e.error === 'canceled') return; if (onerror) onerror(e); else toast(`음성 오류: ${e.error}`); };
+    utterKeep.push(u); if (utterKeep.length > 40) utterKeep.shift();
+    const go = () => speechSynthesis.speak(u);
+    if (speechSynthesis.speaking || speechSynthesis.pending) { speechSynthesis.cancel(); setTimeout(go, 150); } else go();
+    return u;
   }
   function stopSpeak() { if ('speechSynthesis' in window) speechSynthesis.cancel(); }
   const speakBtn = (text, title = '듣기') => `<button class="speak" data-say="${esc(text)}" title="${title}" aria-label="${title}">▶</button>`;
@@ -146,7 +154,7 @@
 
   // 공통 클릭 처리
   document.addEventListener('click', e => {
-    const b = e.target.closest('[data-say]'); if (b) { stopSpeak(); speak(b.dataset.say); }
+    const b = e.target.closest('[data-say]'); if (b) { if (briefRun) briefRun.stop = true; speak(b.dataset.say); }
     const r = e.target.closest('.rev[data-reveal]'); if (r) { const a = $('.a', r); a.classList.toggle('hidden'); }
   });
 
@@ -436,18 +444,25 @@
       <div class="sticky-ctl row">
         <button class="primary" id="play">▶ 처음부터</button><button id="pause">∥ 일시정지</button><button id="stop">■ 정지</button>
         <select id="rate" style="width:auto"><option value="0.75">느리게</option><option value="0.9">보통</option><option value="1">빠르게</option></select>
+        <button class="tiny" id="sound-test">소리 테스트</button>
       </div>
+      <p class="small muted" id="brief-status">정지</p>
       <div class="card" id="paras">${b.paragraphs.map((p, k) => `<div class="para ${isHead(p) ? 'heading' : ''}" data-k="${k}">${esc(p)}</div>`).join('')}</div>
       ${b.korean_summary ? `<div class="card warn small">${esc(b.korean_summary)}</div>` : ''}
-      <p class="help">문단을 누르면 거기부터 재생합니다.</p>`;
+      <p class="help">문단을 누르면 거기부터 재생합니다. 아이폰은 무음 스위치가 켜져 있거나 화면이 꺼지면 소리가 나지 않습니다. 재생 중에는 화면을 켜 두세요.</p>`;
     $('#rate').value = String(S.rate || 0.9);
     $('#rate').onchange = e => { S.rate = parseFloat(e.target.value); save(); };
     const paras = b.paragraphs;
     const mark = k => { app.querySelectorAll('.para').forEach(p => p.classList.toggle('now', Number(p.dataset.k) === k)); const el = $(`.para[data-k="${k}"]`); if (el) el.scrollIntoView({ block: 'center', behavior: 'smooth' }); };
+    const status = msg => { const el = $('#brief-status'); if (el) el.textContent = msg; };
+    let watchdog = null;
     function playFrom(k) {
-      stopSpeak(); const run = briefRun = { k, stop: false };
+      if (briefRun) briefRun.stop = true;           // 이전 재생의 onend가 이어 말하지 않게
+      const run = briefRun = { k, stop: false };
+      status('재생 준비…');
       const next = () => {
-        if (run.stop || run.k >= paras.length) { if (!run.stop) mark(-1); return; }
+        if (run.stop) return;
+        if (run.k >= paras.length) { mark(-1); status('끝'); return; }
         mark(run.k);
         const chunks = paras[run.k].split(/\s*\.\.\.(?:\s*\.\.\.)*\s*/).filter(Boolean);
         let ci = 0;
@@ -455,7 +470,13 @@
           if (run.stop) return;
           if (ci >= chunks.length) { run.k++; next(); return; }
           const txt = chunks[ci++]; const pauseAfter = ci < chunks.length || /\.\.\./.test(paras[run.k]);
-          speak(txt, { onend: () => { if (run.stop) return; if (pauseAfter) setTimeout(speakChunk, 2500); else speakChunk(); } });
+          clearTimeout(watchdog);
+          watchdog = setTimeout(() => { if (!run.stop && Date.now() - lastSpeakStart > 3500) status('소리가 나지 않습니다. 아이폰 측면 무음 스위치를 끄고 볼륨을 올린 뒤 다시 누르세요. 그래도 안 되면 설정 탭에서 다른 음성을 골라 보세요.'); }, 4000);
+          speak(txt, {
+            onstart: () => { clearTimeout(watchdog); status(`재생 중 ${run.k + 1}/${paras.length}`); },
+            onend: () => { if (run.stop) return; if (pauseAfter) { status(`따라 말하기… (${run.k + 1}/${paras.length})`); setTimeout(speakChunk, 2500); } else speakChunk(); },
+            onerror: e => { status(`음성 오류: ${e.error}`); },
+          });
         };
         speakChunk();
       };
@@ -463,7 +484,9 @@
     }
     $('#play').onclick = () => playFrom(0);
     $('#pause').onclick = () => { if (!('speechSynthesis' in window)) return; if (speechSynthesis.paused) { speechSynthesis.resume(); $('#pause').textContent = '∥ 일시정지'; } else { speechSynthesis.pause(); $('#pause').textContent = '▶ 이어서'; } };
-    $('#stop').onclick = () => { if (briefRun) briefRun.stop = true; stopSpeak(); mark(-1); };
+    $('#stop').onclick = () => { if (briefRun) briefRun.stop = true; clearTimeout(watchdog); stopSpeak(); mark(-1); status('정지'); };
+    $('#sound-test').onclick = () => { if (briefRun) briefRun.stop = true; status('소리 테스트…'); speak('This is a sound test. If you can hear this, the briefing will work.', { onstart: () => status('소리 테스트 재생 중'), onend: () => status('소리 테스트 끝') }); };
+    document.addEventListener('visibilitychange', () => { if (document.hidden && briefRun && !briefRun.stop) status('화면이 꺼지면 아이폰은 재생을 멈춥니다. 다시 열고 문단을 누르세요.'); });
     app.querySelectorAll('.para').forEach(p => p.onclick = () => playFrom(Number(p.dataset.k)));
   }
 
