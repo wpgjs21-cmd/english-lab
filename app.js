@@ -40,27 +40,40 @@
   // ---------- 음성 ----------
   let voice = null;
   // 음성 품질 점수: iPhone·Mac에 내려받은 프리미엄 > 향상(Enhanced) > Google/Siri > 기본. 영어(en-US 우선)만.
+  const NOVELTY = /bahh|bad news|bells|boing|bubbles|cellos|deranged|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|albert|fred|junior|kathy|ralph|eddy|flo\b|grandma|grandpa|reed|rocko|sandy|shelley|hysterical|pipe organ/;
   function voiceScore(v) {
     const id = `${v.voiceURI} ${v.name}`.toLowerCase();
     let s = 0;
+    if (NOVELTY.test(id)) return -100;                       // 장난·캐릭터 음성은 제외
     if (/premium/.test(id)) s += 40; else if (/enhanced|neural|natural|online/.test(id)) s += 25; else if (/google|siri|aria|jenny|guy/.test(id)) s += 12;
     if (/en-us/i.test(v.lang) || /en_us/i.test(v.lang)) s += 8; else if (/^en/i.test(v.lang)) s += 3;
-    if (/samantha|ava|zoe|allison|evan|nathan|joelle|noelle|tom/.test(id)) s += 2;
-    if (/compact|eloquence|fred|albert|bad news|bells|boing|bubbles|cellos|deranged|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|junior|ralph|kathy/.test(id)) s -= 30;
+    if (/samantha|ava\b|zoe|allison|nicky|evan|nathan|joelle|noelle|aaron|tom\b|susan|daniel|karen|moira|tessa|rishi|serena|kate\b|oliver/.test(id)) s += 6;
+    if (/samantha|ava\b|zoe/.test(id)) s += 2;
     return s;
   }
   function voiceLabel(v) {
     const id = `${v.voiceURI} ${v.name}`.toLowerCase();
-    const q = /premium/.test(id) ? '프리미엄' : /enhanced|neural|natural/.test(id) ? '향상' : /google|siri/.test(id) ? '보통' : '기본';
+    const q = /premium/.test(id) ? '프리미엄' : /enhanced|neural|natural/.test(id) ? '향상' : /google|siri/.test(id) ? '보통' : /compact/.test(id) ? '기본' : '기본';
     return `${v.name} (${v.lang}, ${q})`;
   }
   function englishVoices() { return speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang) && voiceScore(v) >= 0).sort((a, b) => voiceScore(b) - voiceScore(a)); }
   function pickVoice() {
     const vs = englishVoices();
-    voice = (S.voiceURI && vs.find(v => v.voiceURI === S.voiceURI)) || vs[0] || null;
+    const chosen = S.voiceURI && vs.find(v => v.voiceURI === S.voiceURI);
+    voice = (chosen && voiceScore(chosen) >= 0 ? chosen : null) || vs[0] || null;
   }
   if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
   // iOS 사파리 주의: cancel() 직후 speak()는 묵음이 되기 쉬워 잠깐 띄운다. 발화 객체는 GC되지 않게 붙잡는다.
+  // iOS 무음 스위치 우회: 사용자 터치 안에서 무음 오디오를 틀어 두면 음성 합성도 미디어 채널로 나간다 (최선 시도).
+  const SILENT_WAV = 'data:audio/wav;base64,UklGRoQJAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YWAJAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA=';
+  let bgAudio = null;
+  function audioUnlock() {
+    try {
+      if (!bgAudio) { bgAudio = new Audio(SILENT_WAV); bgAudio.loop = true; bgAudio.volume = 0.01; bgAudio.setAttribute('playsinline', ''); }
+      const p = bgAudio.play(); if (p && p.catch) p.catch(() => {});
+    } catch {}
+  }
+  function audioRelease() { try { if (bgAudio) { bgAudio.pause(); } } catch {} }
   const utterKeep = []; let lastSpeakStart = 0;
   function speak(text, { onend, onstart, onerror } = {}) {
     if (!('speechSynthesis' in window)) { toast('이 브라우저는 음성을 지원하지 않습니다'); return null; }
@@ -71,6 +84,7 @@
     u.onend = () => { if (onend) onend(); };
     u.onerror = e => { if (e.error === 'interrupted' || e.error === 'canceled') return; if (onerror) onerror(e); else toast(`음성 오류: ${e.error}`); };
     utterKeep.push(u); if (utterKeep.length > 40) utterKeep.shift();
+    audioUnlock();
     const go = () => speechSynthesis.speak(u);
     if (speechSynthesis.speaking || speechSynthesis.pending) { speechSynthesis.cancel(); setTimeout(go, 150); } else go();
     return u;
@@ -484,7 +498,7 @@
     }
     $('#play').onclick = () => playFrom(0);
     $('#pause').onclick = () => { if (!('speechSynthesis' in window)) return; if (speechSynthesis.paused) { speechSynthesis.resume(); $('#pause').textContent = '∥ 일시정지'; } else { speechSynthesis.pause(); $('#pause').textContent = '▶ 이어서'; } };
-    $('#stop').onclick = () => { if (briefRun) briefRun.stop = true; clearTimeout(watchdog); stopSpeak(); mark(-1); status('정지'); };
+    $('#stop').onclick = () => { if (briefRun) briefRun.stop = true; clearTimeout(watchdog); stopSpeak(); audioRelease(); mark(-1); status('정지'); };
     $('#sound-test').onclick = () => { if (briefRun) briefRun.stop = true; status('소리 테스트…'); speak('This is a sound test. If you can hear this, the briefing will work.', { onstart: () => status('소리 테스트 재생 중'), onend: () => status('소리 테스트 끝') }); };
     $('#diag').onclick = () => {
       if (briefRun) briefRun.stop = true;
@@ -500,14 +514,14 @@
           `선택 음성: ${voice ? voice.name + ' (' + voice.lang + ')' : '없음(기본)'}`,
           `상태: speaking=${ss ? ss.speaking : '-'} pending=${ss ? ss.pending : '-'} paused=${ss ? ss.paused : '-'}`,
           `이벤트: ${ev.join(' → ') || '없음(3초 동안 시작 신호 없음)'}`,
-          `볼륨/무음: 브라우저로는 확인 불가 → 측면 스위치·볼륨 직접 확인`,
+          `볼륨/무음: 브라우저로는 확인 불가. 화면 맨 위에 종에 빗금 아이콘이 있으면 무음 모드 → 꺼야 소리가 남`,
         ].join('\n');
         status(r);
         const el = $('#brief-status'); if (el) el.style.whiteSpace = 'pre-wrap';
         try { navigator.clipboard.writeText(r); toast('진단 결과를 복사했습니다. 채팅에 붙여 넣으세요'); } catch {}
       };
       if (!ss) { report(); return; }
-      if (ss.paused) ss.resume();
+      if (ss.paused) ss.resume(); audioUnlock();
       // 1) 선택 음성으로, 2) 2초 뒤에도 시작 신호가 없으면 기본 음성·짧은 문장으로 한 번 더
       const u = new SpeechSynthesisUtterance('Testing one two three.');
       u.lang = 'en-US'; if (voice) u.voice = vs.find(v => v.voiceURI === voice.voiceURI) || null; u.rate = 1; u.volume = 1;
