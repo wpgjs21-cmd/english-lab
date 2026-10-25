@@ -1,26 +1,322 @@
 [
-  {"expression": "verify", "kind": "단어", "pos": "v.", "meaning": "(사실·자료가 맞는지) 확인하다 — check 대신", "topic": "구매·품의", "learned": "2026-10-22", "wrong": false, "first_used": null},
-  {"expression": "significant", "kind": "단어", "pos": "adj.", "meaning": "(차이·금액이) 상당한, 큰 — big 대신", "topic": "구매·품의", "learned": "2026-10-22", "wrong": false, "first_used": null},
-  {"expression": "feasible", "kind": "단어", "pos": "adj.", "meaning": "실행 가능한, 현장에서 해 볼 만한", "topic": "구매·품의", "learned": "2026-10-22", "wrong": true, "first_used": null},
-  {"expression": "negotiate", "kind": "단어", "pos": "v.", "meaning": "(가격·조건을) 협상하다", "topic": "구매·품의", "learned": "2026-10-22", "wrong": false, "first_used": null},
-  {"expression": "outstanding", "kind": "단어", "pos": "adj.", "meaning": "아직 처리·제출되지 않은, 미결의", "topic": "구매·품의", "learned": "2026-10-22", "wrong": true, "first_used": null},
-  {"expression": "Could you confirm whether ~?", "kind": "패턴", "pos": "", "meaning": "~인지 확인해 주시겠어요?", "topic": "구매·품의", "learned": "2026-10-22", "wrong": false, "first_used": null},
-  {"expression": "I'm following up on ~", "kind": "패턴", "pos": "", "meaning": "~ 건으로 다시 연락드립니다", "topic": "구매·품의", "learned": "2026-10-22", "wrong": false, "first_used": null},
-  {"expression": "If ~, we could ~ first.", "kind": "패턴", "pos": "", "meaning": "~하면 우선 ~부터 해 볼 수 있습니다", "topic": "구매·품의", "learned": "2026-10-22", "wrong": false, "first_used": null},
-  {"expression": "obtain", "kind": "단어", "pos": "v.", "meaning": "얻다, 받아 내다 — get 대신", "topic": "인사·노무", "learned": "2026-10-23", "wrong": false, "first_used": null},
-  {"expression": "log", "kind": "단어", "pos": "v.", "meaning": "(결과·수치를) 기록하다 — note 대신", "topic": "컴플라이언스·감사", "learned": "2026-10-23", "wrong": true, "first_used": null},
-  {"expression": "comply with", "kind": "단어", "pos": "v.", "meaning": "(규정·기준을) 준수하다 — meet 대신", "topic": "컴플라이언스·감사", "learned": "2026-10-23", "wrong": true, "first_used": null},
-  {"expression": "assign", "kind": "단어", "pos": "v.", "meaning": "(사람·업무를) 배정하다 — ask ~ to do 대신", "topic": "수출입·통관", "learned": "2026-10-23", "wrong": false, "first_used": null},
-  {"expression": "brief", "kind": "단어", "pos": "v.", "meaning": "(짧게) 설명하다, 브리핑하다 — explain verbally 대신", "topic": "인사·노무", "learned": "2026-10-23", "wrong": false, "first_used": null},
-  {"expression": "Once ~, please ~.", "kind": "패턴", "pos": "", "meaning": "~이 끝나면 ~해 주세요 (순서 지시)", "topic": "회의·대화", "learned": "2026-10-23", "wrong": false, "first_used": null},
-  {"expression": "Until ~, please continue to ~.", "kind": "패턴", "pos": "", "meaning": "~ 전까지는 계속 ~해 주세요 (임시 조치)", "topic": "컴플라이언스·감사", "learned": "2026-10-23", "wrong": false, "first_used": null},
-  {"expression": "I'd like to highlight ~", "kind": "패턴", "pos": "", "meaning": "~을 짚고 넘어가고 싶습니다 (강조·이견 제시)", "topic": "회의·대화", "learned": "2026-10-23", "wrong": false, "first_used": null},
-  {"expression": "prevent", "kind": "단어", "pos": "v.", "meaning": "막다, 미리 방지하다 — so that ~ doesn't happen again 대신", "topic": "총무·시설", "learned": "2026-10-26", "wrong": false, "first_used": null},
-  {"expression": "clarify", "kind": "단어", "pos": "v.", "meaning": "분명히 하다, 정확히 확인하다 — check / explain 대신", "topic": "회계·결산", "learned": "2026-10-26", "wrong": false, "first_used": null},
-  {"expression": "dispose of", "kind": "단어", "pos": "v.", "meaning": "처분하다, 폐기하다 — throw away 대신", "topic": "총무·시설", "learned": "2026-10-26", "wrong": false, "first_used": null},
-  {"expression": "discrepancy", "kind": "단어", "pos": "n.", "meaning": "차이, 불일치 — difference 대신", "topic": "수출입·통관", "learned": "2026-10-26", "wrong": false, "first_used": null},
-  {"expression": "proceed with", "kind": "단어", "pos": "v.", "meaning": "(계획대로) 진행하다 — go ahead / do 대신", "topic": "구매·품의", "learned": "2026-10-26", "wrong": false, "first_used": null},
-  {"expression": "Could you explain why ~?", "kind": "패턴", "pos": "", "meaning": "왜 ~인지 설명해 주시겠어요? (Why did you ~? 대신)", "topic": "회의·대화", "learned": "2026-10-26", "wrong": false, "first_used": null},
-  {"expression": "Going forward, please ~.", "kind": "패턴", "pos": "", "meaning": "앞으로는 ~해 주세요 (From now on 대신, 규칙 안내)", "topic": "회의·대화", "learned": "2026-10-26", "wrong": false, "first_used": null},
-  {"expression": "I understand your concern about ~, but ~.", "kind": "패턴", "pos": "", "meaning": "~ 걱정은 이해하지만 ~ (부드러운 반박)", "topic": "회의·대화", "learned": "2026-10-26", "wrong": false, "first_used": null}
+  {
+    "expression": "verify",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(사실·자료가 맞는지) 확인하다 — check 대신",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "significant",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(차이·금액이) 상당한, 큰 — big 대신",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "feasible",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "실행 가능한, 현장에서 해 볼 만한",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": true,
+    "first_used": null
+  },
+  {
+    "expression": "negotiate",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(가격·조건을) 협상하다",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "outstanding",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "아직 처리·제출되지 않은, 미결의",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": true,
+    "first_used": null
+  },
+  {
+    "expression": "Could you confirm whether ~?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~인지 확인해 주시겠어요?",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'm following up on ~",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 건으로 다시 연락드립니다",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "If ~, we could ~ first.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하면 우선 ~부터 해 볼 수 있습니다",
+    "topic": "구매·품의",
+    "learned": "2026-10-22",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "obtain",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "얻다, 받아 내다 — get 대신",
+    "topic": "인사·노무",
+    "learned": "2026-10-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "log",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(결과·수치를) 기록하다 — note 대신",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-10-23",
+    "wrong": true,
+    "first_used": null
+  },
+  {
+    "expression": "comply with",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(규정·기준을) 준수하다 — meet 대신",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-10-23",
+    "wrong": true,
+    "first_used": null
+  },
+  {
+    "expression": "assign",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(사람·업무를) 배정하다 — ask ~ to do 대신",
+    "topic": "수출입·통관",
+    "learned": "2026-10-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "brief",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(짧게) 설명하다, 브리핑하다 — explain verbally 대신",
+    "topic": "인사·노무",
+    "learned": "2026-10-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Once ~, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~이 끝나면 ~해 주세요 (순서 지시)",
+    "topic": "회의·대화",
+    "learned": "2026-10-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Until ~, please continue to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 전까지는 계속 ~해 주세요 (임시 조치)",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-10-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'd like to highlight ~",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~을 짚고 넘어가고 싶습니다 (강조·이견 제시)",
+    "topic": "회의·대화",
+    "learned": "2026-10-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "prevent",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "막다, 미리 방지하다 — so that ~ doesn't happen again 대신",
+    "topic": "총무·시설",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "clarify",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "분명히 하다, 정확히 확인하다 — check / explain 대신",
+    "topic": "회계·결산",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "dispose of",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "처분하다, 폐기하다 — throw away 대신",
+    "topic": "총무·시설",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "discrepancy",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "차이, 불일치 — difference 대신",
+    "topic": "수출입·통관",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "proceed with",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(계획대로) 진행하다 — go ahead / do 대신",
+    "topic": "구매·품의",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Could you explain why ~?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "왜 ~인지 설명해 주시겠어요? (Why did you ~? 대신)",
+    "topic": "회의·대화",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Going forward, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "앞으로는 ~해 주세요 (From now on 대신, 규칙 안내)",
+    "topic": "회의·대화",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I understand your concern about ~, but ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 걱정은 이해하지만 ~ (부드러운 반박)",
+    "topic": "회의·대화",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "pending",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(승인·결정을) 기다리는 중인 — waiting for approval 대신",
+    "topic": "구매·품의",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "finalize",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(수정을 끝내고) 확정하다 — make the final version 대신",
+    "topic": "회계·결산",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "justify",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(필요성·금액의) 근거를 대다 — explain why we need 대신",
+    "topic": "구매·품의",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "consistent",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "일관된, 매번 같은 기준의 — same every time 대신",
+    "topic": "회의·대화",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "oversee",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(현장에서) 감독하다, 지켜보며 책임지다 — check / watch 대신",
+    "topic": "수출입·통관",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Rather than ~, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하지 말고 ~해 주세요 (잘못된 방법을 고쳐 줄 때)",
+    "topic": "회의·대화",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please make sure (that) ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "반드시 ~하도록 해 주세요 (규칙·조건을 못 박을 때)",
+    "topic": "회의·대화",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Let's ~ first, and then ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "먼저 ~하고, 그다음에 ~합시다 (순서를 정해 주며 합의)",
+    "topic": "회의·대화",
+    "learned": "2026-10-25",
+    "wrong": false,
+    "first_used": null
+  }
 ]
