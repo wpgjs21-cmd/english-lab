@@ -11,7 +11,7 @@
     cover: {},         // {날짜: {i: '내 답'}}
     tests: {},         // {시험일: {answers:{no:답}, submitted:ISO, grading:{no:{score,reason,pending}}, startedAt}}
     used: {},          // {표현: 'YYYY-MM-DD' 첫 실전사용}
-    rate: 0.9,
+    rate: 0.9, voiceURI: '',
   };
   let S = load();
   function load() {
@@ -39,9 +39,25 @@
 
   // ---------- 음성 ----------
   let voice = null;
+  // 음성 품질 점수: iPhone·Mac에 내려받은 프리미엄 > 향상(Enhanced) > Google/Siri > 기본. 영어(en-US 우선)만.
+  function voiceScore(v) {
+    const id = `${v.voiceURI} ${v.name}`.toLowerCase();
+    let s = 0;
+    if (/premium/.test(id)) s += 40; else if (/enhanced|neural|natural|online/.test(id)) s += 25; else if (/google|siri|aria|jenny|guy/.test(id)) s += 12;
+    if (/en-us/i.test(v.lang) || /en_us/i.test(v.lang)) s += 8; else if (/^en/i.test(v.lang)) s += 3;
+    if (/samantha|ava|zoe|allison|evan|nathan|joelle|noelle|tom/.test(id)) s += 2;
+    if (/compact|eloquence|fred|albert|bad news|bells|boing|bubbles|cellos|deranged|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|junior|ralph|kathy/.test(id)) s -= 30;
+    return s;
+  }
+  function voiceLabel(v) {
+    const id = `${v.voiceURI} ${v.name}`.toLowerCase();
+    const q = /premium/.test(id) ? '프리미엄' : /enhanced|neural|natural/.test(id) ? '향상' : /google|siri/.test(id) ? '보통' : '기본';
+    return `${v.name} (${v.lang}, ${q})`;
+  }
+  function englishVoices() { return speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang) && voiceScore(v) >= 0).sort((a, b) => voiceScore(b) - voiceScore(a)); }
   function pickVoice() {
-    const vs = speechSynthesis.getVoices();
-    voice = vs.find(v => /en-US/i.test(v.lang) && /Samantha|Google US|Aria|Jenny/i.test(v.name)) || vs.find(v => /en-US/i.test(v.lang)) || vs.find(v => /^en/i.test(v.lang)) || null;
+    const vs = englishVoices();
+    voice = (S.voiceURI && vs.find(v => v.voiceURI === S.voiceURI)) || vs[0] || null;
   }
   if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
   function speak(text, { onend } = {}) {
@@ -465,10 +481,16 @@
         <p class="small" id="token-status"></p>
       </div>
       <div class="card"><h3 style="margin-top:0">음성</h3>
-        <p class="small">영어 음성: ${voice ? esc(voice.name) : '기본'} · 속도 ${S.rate || 0.9}</p>
-        <div class="row"><button data-say="Could you confirm whether the price includes delivery?">시험 재생</button>
+        <label class="small muted">영어 음성 (품질 높은 순)</label>
+        <select id="voice-sel"><option value="">자동 (가장 좋은 음성)</option>${englishVoices().map(v => `<option value="${esc(v.voiceURI)}" ${S.voiceURI === v.voiceURI ? 'selected' : ''}>${esc(voiceLabel(v))}</option>`).join('')}</select>
+        <p class="small muted">지금 쓰는 음성: ${voice ? esc(voiceLabel(voice)) : '없음'} · 영어 음성 ${englishVoices().length}개</p>
+        <div class="row"><button data-say="Could you confirm whether the price includes delivery? I'm following up on the quote I asked for.">시험 재생</button>
           <select id="rate2" style="width:auto"><option value="0.75">느리게</option><option value="0.9">보통</option><option value="1">빠르게</option></select></div>
-        <p class="help">iPhone에서는 설정 › 손쉬운 사용 › 콘텍스트 말하기 › 음성에서 영어 음성(Samantha 등)을 내려받으면 더 자연스럽습니다.</p>
+        <details style="margin-top:8px"><summary>더 자연스러운 음성 내려받기</summary>
+          <p class="small">iPhone: 설정 › 손쉬운 사용 › 콘텐츠 말하기(또는 음성 콘텐츠) › 음성 › 영어 › <b>Ava</b> 또는 <b>Zoe</b>의 <b>프리미엄</b>(또는 Samantha 향상) 내려받기. 내려받은 뒤 이 페이지를 새로 고치면 목록에 "프리미엄"으로 나타나고 자동으로 선택됩니다.</p>
+          <p class="small">Mac: 시스템 설정 › 손쉬운 사용 › 음성 콘텐츠 › 시스템 음성 › 관리에서 영어 프리미엄 음성 내려받기. Chrome에서는 "Google US English"도 쓸 만합니다.</p>
+          <p class="small muted">음성은 기기에 설치된 것만 쓸 수 있습니다. 홈 화면 앱으로 열었을 때 목록이 비면 Safari에서 한 번 열어 보세요.</p>
+        </details>
       </div>
       <div class="card"><h3 style="margin-top:0">이 기기의 기록</h3>
         <p class="small">학습 완료 ${doneDays}일 · 시험 ${Object.keys(S.tests).length}회 · 실전 사용 ${Object.keys(S.used).length}개</p>
@@ -481,6 +503,7 @@
         <p class="small muted">데이터 갱신 ${esc(INDEX.generated || '')} · 카드 ${INDEX.cards.length} · 시험 ${INDEX.tests.length} · 브리핑 ${INDEX.briefings.length} · 표현 ${INDEX.expressions}</p>
       </div>`;
     $('#rate2').value = String(S.rate || 0.9); $('#rate2').onchange = e => { S.rate = parseFloat(e.target.value); save(); };
+    $('#voice-sel').onchange = e => { S.voiceURI = e.target.value; save(); pickVoice(); toast(voice ? `음성: ${voice.name}` : '음성 없음'); pageSettings(); };
     $('#save-token').onclick = () => { S.privRepo = $('#repo').value.trim(); S.privPath = $('#path').value.trim().replace(/\/+$/, ''); S.token = $('#token').value.trim(); save(); toast('저장했습니다'); };
     $('#clear-token').onclick = () => { S.token = ''; save(); $('#token').value = ''; toast('토큰을 지웠습니다'); };
     $('#test-token').onclick = async () => { S.privRepo = $('#repo').value.trim(); S.privPath = $('#path').value.trim(); S.token = $('#token').value.trim(); save();
