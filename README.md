@@ -161,3 +161,7 @@ python3 -m http.server 8765 --directory .
 - 학습물(카드·시험·브리핑·사전)은 회사 OneDrive에 두지 않는다. 이 저장소와 hermes 저장소, 구글 드라이브 영어학습 폴더에서만 다룬다.
 - 공개 저장소에는 내 답·문항별 점수·개인 정보를 넣지 않는다. 답 원문과 `results.csv`는 hermes에만 둔다. 화요일 카드의 `scorecard`에는 점수를 넣지 않는다(전문가 한 줄 평·약점·바뀌는 점만). 점수는 사이트가 hermes의 `results.csv`(토큰) 또는 이 기기의 즉시 채점에서 읽어 보여 준다.
 - 구글 문서는 당분간 그대로 유지하고 JSON을 함께 쓴다(1단계 병행). 절차는 hermes의 `config/tasks/english-site-publish.md`.
+
+## 배포 메모
+- `app.js`·`style.css`를 고치면 `index.html`의 `?v=` 값을 새로 바꾼다(브라우저 캐시 갱신). 데이터 JSON만 추가할 때는 필요 없다.
+- 어느 기기에서 푸시해도 1~2분 뒤 사이트에 반영된다. 윈도우 PC 예약작업·맥·수동 푸시 모두 같다.
