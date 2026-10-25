@@ -11,7 +11,7 @@
     cover: {},         // {날짜: {i: '내 답'}}
     tests: {},         // {시험일: {answers:{no:답}, submitted:ISO, grading:{no:{score,reason,pending}}, startedAt}}
     used: {},          // {표현: 'YYYY-MM-DD' 첫 실전사용}
-    rate: 0.9, voiceURI: '',
+    rate: 0.9, voiceURI: '', silentBypass: false,
   };
   let S = load();
   function load() {
@@ -68,6 +68,7 @@
   const SILENT_WAV = 'data:audio/wav;base64,UklGRoQJAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YWAJAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA=';
   let bgAudio = null;
   function audioUnlock() {
+    if (!S.silentBypass) return;
     try {
       if (!bgAudio) { bgAudio = new Audio(SILENT_WAV); bgAudio.loop = true; bgAudio.volume = 0.01; bgAudio.setAttribute('playsinline', ''); }
       const p = bgAudio.play(); if (p && p.catch) p.catch(() => {});
@@ -458,7 +459,7 @@
       <div class="sticky-ctl row">
         <button class="primary" id="play">▶ 처음부터</button><button id="pause">∥ 일시정지</button><button id="stop">■ 정지</button>
         <select id="rate" style="width:auto"><option value="0.75">느리게</option><option value="0.9">보통</option><option value="1">빠르게</option></select>
-        <button class="tiny" id="sound-test">소리 테스트</button><button class="tiny" id="diag">진단</button>
+        <button class="tiny" id="sound-test">소리 테스트</button><button class="tiny" id="diag">진단</button><button class="tiny" id="bypass">무음 우회: ${S.silentBypass ? "켜짐" : "꺼짐"}</button>
       </div>
       <p class="small muted" id="brief-status">정지</p>
       <div class="card" id="paras">${b.paragraphs.map((p, k) => `<div class="para ${isHead(p) ? 'heading' : ''}" data-k="${k}">${esc(p)}</div>`).join('')}</div>
@@ -499,6 +500,7 @@
     $('#play').onclick = () => playFrom(0);
     $('#pause').onclick = () => { if (!('speechSynthesis' in window)) return; if (speechSynthesis.paused) { speechSynthesis.resume(); $('#pause').textContent = '∥ 일시정지'; } else { speechSynthesis.pause(); $('#pause').textContent = '▶ 이어서'; } };
     $('#stop').onclick = () => { if (briefRun) briefRun.stop = true; clearTimeout(watchdog); stopSpeak(); audioRelease(); mark(-1); status('정지'); };
+    $('#bypass').onclick = () => { S.silentBypass = !S.silentBypass; save(); if (!S.silentBypass) audioRelease(); $('#bypass').textContent = `무음 우회: ${S.silentBypass ? '켜짐' : '꺼짐'}`; status(S.silentBypass ? '무음 우회 켜짐: 무음 스위치가 켜져 있어도 소리를 내 보려는 시도입니다' : '무음 우회 꺼짐'); };
     $('#sound-test').onclick = () => { if (briefRun) briefRun.stop = true; status('소리 테스트…'); speak('This is a sound test. If you can hear this, the briefing will work.', { onstart: () => status('소리 테스트 재생 중'), onend: () => status('소리 테스트 끝') }); };
     $('#diag').onclick = () => {
       if (briefRun) briefRun.stop = true;
