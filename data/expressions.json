@@ -398,5 +398,75 @@
     "learned": "2026-10-27",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "ensure",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "반드시 ~하도록 하다",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-10-28",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "historical",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "과거의, 이전 기간의",
+    "topic": "수출입·통관",
+    "learned": "2026-10-28",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "mandatory",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "필수의, 의무적인",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-10-28",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "duplicate",
+    "kind": "단어",
+    "pos": "adj./v.",
+    "meaning": "중복된 / 중복하다",
+    "topic": "총무·시설",
+    "learned": "2026-10-28",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I didn't mean ~. What I need is ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하라는 뜻은 아니었습니다. 제가 필요한 건 ~입니다",
+    "topic": "회의·대화",
+    "learned": "2026-10-28",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Below are the options for ~. Please let me know which one works for you by ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 선택지는 아래와 같습니다. ~까지 어느 것이 좋은지 알려 주세요",
+    "topic": "인사·노무",
+    "learned": "2026-10-28",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Is there any way (that) ~ can ~?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "혹시 ~가 ~할 방법이 있을까요?",
+    "topic": "수출입·통관",
+    "learned": "2026-10-28",
+    "wrong": false,
+    "first_used": null
   }
 ]
