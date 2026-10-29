@@ -468,5 +468,75 @@
     "learned": "2026-10-28",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "monitor",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(계속) 지켜보다, 점검하다 — check again every month 대신",
+    "topic": "총무·시설",
+    "learned": "2026-10-29",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "prioritize",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "우선 처리하다, 먼저 하다 — do first 대신",
+    "topic": "구매·품의",
+    "learned": "2026-10-29",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "resolve",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(문제를) 해결하다 — fix 대신",
+    "topic": "수출입·통관",
+    "learned": "2026-10-29",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "advise",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(정보를) 알려 주다, 통지하다 — tell 대신",
+    "topic": "회의·대화",
+    "learned": "2026-10-29",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please keep me posted on ~ until ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~까지 ~ 진행 상황을 계속 알려 주세요",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-10-29",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "When will you be able to ~?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "언제 ~해 주실 수 있을까요?",
+    "topic": "회의·대화",
+    "learned": "2026-10-29",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "If ~ is not ~ by ~, we will have to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~까지 ~되지 않으면 ~할 수밖에 없습니다",
+    "topic": "수출입·통관",
+    "learned": "2026-10-29",
+    "wrong": false,
+    "first_used": null
   }
 ]
