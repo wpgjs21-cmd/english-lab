@@ -538,5 +538,85 @@
     "learned": "2026-10-29",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "proceed",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "진행하다",
+    "topic": "인사·노무",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "exceed",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(한도를) 넘다, 초과하다",
+    "topic": "인사·노무",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "reschedule",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "일정을 다시 잡다",
+    "topic": "총무·시설",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "accurate",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(자료·숫자·번역이) 정확한",
+    "topic": "인사·노무",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "allowance",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "허용량, 한도",
+    "topic": "인사·노무",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "In case ~, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~할 경우에는 ~해 주세요",
+    "topic": "총무·시설",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please note that ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~라는 점 참고해 주세요",
+    "topic": "회의·대화",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "We have decided to ~ instead of ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 대신 ~하기로 했습니다",
+    "topic": "구매·품의",
+    "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
   }
 ]
