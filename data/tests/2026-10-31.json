@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-31",
+  "weekday": "토",
+  "scope": "10/26~10/30 표현 40개 중 16개 + 지난 오답 4개",
+  "count": 20,
+  "time_limit_min": 15,
+  "grading_rule": "정답 1, 부분 정답 0.5(철자 한 글자·관사·시제만 틀림), 오답 0, 빈칸 0. 품사까지 틀리면 0. 영작(C·D)은 지정 패턴을 썼으면 틀 0.5, 패턴 뒤 절에 주어·동사가 맞게 있고 뜻이 통하면 절 0.5.",
+  "memo": "이번 주(10/26~10/30) 표현이 40개라 전부 내지 않고 20문제로 뽑음(날짜별 단어 2개·패턴 6개 고르게, A8·B6·C4·D2). 지난 시험 오답 4개는 전부 B로 재출제. 2주 지난 표현이 아직 없어 유지율 문항은 없음.",
+  "questions": [
+    {
+      "no": 1,
+      "type": "A",
+      "prompt": "(구매·금액의 필요성에) 타당한 이유를 대다 — explain why we need it 대신",
+      "answer": "justify",
+      "accept": [],
+      "expression": "justify",
+      "kind": "단어",
+      "learned": "2026-10-26",
+      "topic": "구매·품의",
+      "reissue": "신규",
+      "note": "짝꿍: justify the purchase / justify the cost."
+    },
+    {
+      "no": 2,
+      "type": "B",
+      "prompt": "Please l__ the moisture result in the QC sheet after each test.",
+      "answer": "log",
+      "accept": [
+        "record"
+      ],
+      "expression": "log",
+      "kind": "단어",
+      "learned": "2026-10-23",
+      "topic": "컴플라이언스·감사",
+      "reissue": "오답",
+      "note": "수치·결과를 표나 대장에 적어 둔다. 지난 시험 오답 재출제."
+    },
+    {
+      "no": 3,
+      "type": "C",
+      "prompt": "\"Please hold off on ~ until ~.\"으로 영작: 본사가 승인할 때까지 발주는 보류해 주세요.",
+      "answer": "Please hold off on the order until HQ approves it.",
+      "accept": [
+        "Please hold off on placing the order until HQ approves it."
+      ],
+      "pattern": "hold off on",
+      "expression": "Please hold off on ~ until ~.",
+      "kind": "패턴",
+      "learned": "2026-10-27",
+      "topic": "구매·품의",
+      "reissue": "신규",
+      "note": "on 뒤는 명사나 -ing, until 뒤는 주어+현재형 동사."
+    },
+    {
+      "no": 4,
+      "type": "A",
+      "prompt": "(숫자·자료 사이의) 차이, 불일치 — difference 대신",
+      "answer": "discrepancy",
+      "accept": [
+        "mismatch"
+      ],
+      "expression": "discrepancy",
+      "kind": "단어",
+      "learned": "2026-10-29",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "짝꿍: a discrepancy between A and B."
+    },
+    {
+      "no": 5,
+      "type": "B",
+      "prompt": "Please a______ the buyer's audit findings first, then send me the plan.",
+      "answer": "address",
+      "accept": [],
+      "expression": "address",
+      "kind": "단어",
+      "learned": "2026-10-26",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "문제·지적 사항을 다루어 처리한다. address an issue."
+    },
+    {
+      "no": 6,
+      "type": "A",
+      "prompt": "필수의, 의무적인 — must have 대신",
+      "answer": "mandatory",
+      "accept": [
+        "required",
+        "compulsory"
+      ],
+      "expression": "mandatory",
+      "kind": "단어",
+      "learned": "2026-10-28",
+      "topic": "컴플라이언스·감사",
+      "reissue": "신규",
+      "note": "짝꿍: mandatory for every upload / mandatory training."
+    },
+    {
+      "no": 7,
+      "type": "D",
+      "prompt": "\"Rather than ~ing, please ~.\" 패턴으로 고쳐 쓰기: Don't call me about every small issue. Just send me one list at the end of the day.",
+      "answer": "Rather than calling me about every small issue, please send me one list at the end of the day.",
+      "accept": [],
+      "pattern": "rather than",
+      "expression": "Rather than ~ing, please ~.",
+      "kind": "패턴",
+      "learned": "2026-10-26",
+      "topic": "회의·대화",
+      "reissue": "신규",
+      "note": "Rather than 뒤는 -ing, please 뒤는 동사원형."
+    },
+    {
+      "no": 8,
+      "type": "B",
+      "prompt": "Three invoices from the forwarder are still o__________, so I cannot close the report.",
+      "answer": "outstanding",
+      "accept": [],
+      "expression": "outstanding",
+      "kind": "단어",
+      "learned": "2026-10-22",
+      "topic": "구매·품의",
+      "reissue": "오답",
+      "note": "아직 안 들어온·처리 안 된. \"훌륭한\" 뜻과 헷갈리지 말 것. 지난 시험 오답 재출제."
+    },
+    {
+      "no": 9,
+      "type": "A",
+      "prompt": "(한도를) 넘다, 초과하다 — go over 대신",
+      "answer": "exceed",
+      "accept": [],
+      "expression": "exceed",
+      "kind": "단어",
+      "learned": "2026-10-30",
+      "topic": "인사·노무",
+      "reissue": "신규",
+      "note": "짝꿍: exceed the legal limit / exceed the budget. 철자 ee 주의."
+    },
+    {
+      "no": 10,
+      "type": "C",
+      "prompt": "\"Is there any way (that) ~ can ~?\"으로 영작: 혹시 창고가 오늘 오후까지 재고 수량을 보내 줄 방법이 있을까요?",
+      "answer": "Is there any way the warehouse can send the stock quantity by this afternoon?",
+      "accept": [
+        "Is there any way that the warehouse can send the stock quantity by this afternoon?"
+      ],
+      "pattern": "is there any way",
+      "expression": "Is there any way (that) ~ can ~?",
+      "kind": "패턴",
+      "learned": "2026-10-28",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "way 뒤는 주어+can+동사원형. can을 주어 앞으로 옮기지 않는다."
+    },
+    {
+      "no": 11,
+      "type": "A",
+      "prompt": "명확히 하다, 분명히 설명하다 — make clear 대신",
+      "answer": "clarify",
+      "accept": [],
+      "expression": "clarify",
+      "kind": "단어",
+      "learned": "2026-10-28",
+      "topic": "회의·대화",
+      "reissue": "신규",
+      "note": "짝꿍: clarify who does it / clarify the rule."
+    },
+    {
+      "no": 12,
+      "type": "B",
+      "prompt": "Please confirm r______ of the signed contract by email.",
+      "answer": "receipt",
+      "accept": [],
+      "expression": "receipt",
+      "kind": "단어",
+      "learned": "2026-10-27",
+      "topic": "인사·노무",
+      "reissue": "신규",
+      "note": "confirm receipt of ~ = ~을 받았다고 확인해 주다. 철자에 p가 있다."
+    },
+    {
+      "no": 13,
+      "type": "A",
+      "prompt": "(한 가지 일만 맡는) 전담의 — only for this job 대신",
+      "answer": "dedicated",
+      "accept": [],
+      "expression": "dedicated",
+      "kind": "단어",
+      "learned": "2026-10-27",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "짝꿍: a dedicated team / a dedicated person."
+    },
+    {
+      "no": 14,
+      "type": "C",
+      "prompt": "\"If ~ is not ~ by ~, we will have to ~.\"로 영작: 금요일까지 서류가 준비되지 않으면 선적을 미룰 수밖에 없습니다.",
+      "answer": "If the documents are not ready by Friday, we will have to delay the shipment.",
+      "accept": [
+        "If the documents are not ready by Friday, we will have to postpone the shipment."
+      ],
+      "pattern": "we will have to",
+      "expression": "If ~ is not ~ by ~, we will have to ~.",
+      "kind": "패턴",
+      "learned": "2026-10-29",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "If 절은 현재형(are not ready), 뒤 절에 will have to."
+    },
+    {
+      "no": 15,
+      "type": "B",
+      "prompt": "Is a 10-day lead time f_______ for this order?",
+      "answer": "feasible",
+      "accept": [],
+      "expression": "feasible",
+      "kind": "단어",
+      "learned": "2026-10-22",
+      "topic": "구매·품의",
+      "reissue": "오답",
+      "note": "현장에서 실제로 할 수 있는지. 지난 시험 오답 재출제."
+    },
+    {
+      "no": 16,
+      "type": "A",
+      "prompt": "우선 처리하다, 먼저 하다 — do first 대신",
+      "answer": "prioritize",
+      "accept": [],
+      "expression": "prioritize",
+      "kind": "단어",
+      "learned": "2026-10-29",
+      "topic": "구매·품의",
+      "reissue": "신규",
+      "note": "Please prioritize A and B. 뒤에 바로 목적어."
+    },
+    {
+      "no": 17,
+      "type": "D",
+      "prompt": "\"Just a reminder that ~ is due ~.\" 패턴으로 고쳐 쓰기: Don't forget. You must send the headcount file by Friday.",
+      "answer": "Just a reminder that the headcount file is due by Friday.",
+      "accept": [
+        "Just a reminder that the headcount file is due on Friday.",
+        "Just a reminder that the headcount file is due this Friday."
+      ],
+      "pattern": "just a reminder that",
+      "expression": "Just a reminder that ~ is due ~.",
+      "kind": "패턴",
+      "learned": "2026-10-27",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "사람이 아니라 파일을 주어로, must 없이 is due로 부드럽게."
+    },
+    {
+      "no": 18,
+      "type": "B",
+      "prompt": "Our overtime records must c_____ w___ the labor law.",
+      "answer": "comply with",
+      "accept": [],
+      "expression": "comply with",
+      "kind": "단어",
+      "learned": "2026-10-23",
+      "topic": "컴플라이언스·감사",
+      "reissue": "오답",
+      "note": "must 뒤 동사원형. with를 빼면 부분 정답. 지난 시험 오답 재출제."
+    },
+    {
+      "no": 19,
+      "type": "A",
+      "prompt": "(자료·숫자·번역이) 정확한 — correct 대신",
+      "answer": "accurate",
+      "accept": [
+        "precise"
+      ],
+      "expression": "accurate",
+      "kind": "단어",
+      "learned": "2026-10-30",
+      "topic": "인사·노무",
+      "reissue": "신규",
+      "note": "짝꿍: accurate data / an accurate translation."
+    },
+    {
+      "no": 20,
+      "type": "C",
+      "prompt": "\"We have decided to ~ instead of ~.\"로 영작: 새 기계를 사는 대신 기존 기계를 수리하기로 했습니다.",
+      "answer": "We have decided to repair the old machine instead of buying a new one.",
+      "accept": [
+        "We have decided to repair the existing machine instead of buying a new one."
+      ],
+      "pattern": "instead of",
+      "expression": "We have decided to ~ instead of ~.",
+      "kind": "패턴",
+      "learned": "2026-10-30",
+      "topic": "구매·품의",
+      "reissue": "신규",
+      "note": "to 뒤는 동사원형, instead of 뒤는 -ing."
+    }
+  ]
+}
