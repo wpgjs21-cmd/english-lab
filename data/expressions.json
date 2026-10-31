@@ -46,7 +46,7 @@
     "meaning": "아직 처리·제출되지 않은, 미결의",
     "topic": "구매·품의",
     "learned": "2026-10-22",
-    "wrong": true,
+    "wrong": false,
     "first_used": null
   },
   {
@@ -176,7 +176,7 @@
     "meaning": "분명히 하다, 정확히 확인하다 — check / explain 대신",
     "topic": "회계·결산",
     "learned": "2026-10-26",
-    "wrong": false,
+    "wrong": true,
     "first_used": null
   },
   {
@@ -266,7 +266,7 @@
     "meaning": "(필요성·금액의) 근거를 대다 — explain why we need 대신",
     "topic": "구매·품의",
     "learned": "2026-10-25",
-    "wrong": false,
+    "wrong": true,
     "first_used": null
   },
   {
@@ -326,7 +326,7 @@
     "meaning": "수령, 받음",
     "topic": "인사·노무",
     "learned": "2026-10-27",
-    "wrong": false,
+    "wrong": true,
     "first_used": null
   },
   {
@@ -366,7 +366,7 @@
     "meaning": "전담의, 한 가지 일만 맡는",
     "topic": "수출입·통관",
     "learned": "2026-10-27",
-    "wrong": false,
+    "wrong": true,
     "first_used": null
   },
   {
@@ -486,7 +486,7 @@
     "meaning": "우선 처리하다, 먼저 하다 — do first 대신",
     "topic": "구매·품의",
     "learned": "2026-10-29",
-    "wrong": false,
+    "wrong": true,
     "first_used": null
   },
   {
@@ -576,7 +576,7 @@
     "meaning": "(자료·숫자·번역이) 정확한",
     "topic": "인사·노무",
     "learned": "2026-10-30",
-    "wrong": false,
+    "wrong": true,
     "first_used": null
   },
   {
@@ -616,6 +616,76 @@
     "meaning": "~ 대신 ~하기로 했습니다",
     "topic": "구매·품의",
     "learned": "2026-10-30",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "address",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(문제·질문을) 다루다, 처리하다",
+    "topic": "수출입·통관",
+    "learned": "2026-10-26",
+    "wrong": true,
+    "first_used": null
+  },
+  {
+    "expression": "intentionally",
+    "kind": "단어",
+    "pos": "adv.",
+    "meaning": "의도적으로, 일부러",
+    "topic": "총무·시설",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "damaged",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "파손된, 손상된",
+    "topic": "총무·시설",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "revised",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "수정된, 개정된",
+    "topic": "구매·품의",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Rather than ~ing, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하지 말고 ~해 주세요",
+    "topic": "회의·대화",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "This represents an increase of ~% compared with ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 대비 ~% 인상입니다",
+    "topic": "본사 보고",
+    "learned": "2026-10-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'd like to understand why ~ before ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 전에 왜 ~인지 알고 싶습니다",
+    "topic": "회의·대화",
+    "learned": "2026-10-26",
     "wrong": false,
     "first_used": null
   }
