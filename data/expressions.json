@@ -688,5 +688,75 @@
     "learned": "2026-10-26",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "reconcile",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(두 자료를) 맞춰 보다, 대사하다",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-02",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "conduct",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(조사·점검을) 실시하다",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-02",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "sufficient",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "충분한",
+    "topic": "총무·시설",
+    "learned": "2026-11-02",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "designated",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "지정된",
+    "topic": "총무·시설",
+    "learned": "2026-11-02",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "This replaces ~. Please ignore ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "이것으로 ~을 대체합니다. ~은 무시해 주세요",
+    "topic": "회의·대화",
+    "learned": "2026-11-02",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I was told (that) ~, but ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~라고 들었는데, ~입니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-02",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "As far as I can see, ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "제가 확인한 바로는 ~입니다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-02",
+    "wrong": false,
+    "first_used": null
   }
 ]
