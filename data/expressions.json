@@ -758,5 +758,85 @@
     "learned": "2026-11-02",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "reconsider",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "다시 검토하다",
+    "topic": "본사 보고",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "omission",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "누락, 빠뜨림",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "eligible",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(조건상) 해당되는, 자격이 되는",
+    "topic": "구매·품의",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "waive",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(요금·조건을) 면제하다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "attract",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(사람을) 끌어오다, 모으다",
+    "topic": "인사·노무",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'm afraid (that) ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "유감이지만 ~입니다",
+    "topic": "회의·대화",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I would appreciate it if you could ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~해 주시면 감사하겠습니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Even if ~, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하더라도 ~해 주세요",
+    "topic": "본사 보고",
+    "learned": "2026-11-03",
+    "wrong": false,
+    "first_used": null
   }
 ]

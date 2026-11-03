@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-03",
+  "weekday": "화",
+  "note": "",
+  "routine": "복습 3분(영어 가리고 먼저 쓰기) → 가리고 써 보기 2분(빈칸 먼저, 맨 끝 정답 확인) → 새 내용 5분(노트에 옮길 때 짝 표현째로) → 소리 내어 3번 읽기 3분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/02·10/30·10/26 표현 + 오답 4개)",
+    "items": [
+      {
+        "prompt": "(두 자료를) 맞춰 보다, 대사하다 — check against 대신",
+        "answer": "reconcile",
+        "flag": ""
+      },
+      {
+        "prompt": "(조사·점검을) 실시하다 — do 대신",
+        "answer": "conduct",
+        "flag": ""
+      },
+      {
+        "prompt": "충분한 — enough 대신",
+        "answer": "sufficient",
+        "flag": ""
+      },
+      {
+        "prompt": "지정된 — the place we decided 대신",
+        "answer": "designated",
+        "flag": ""
+      },
+      {
+        "prompt": "일관된, (자료끼리) 서로 맞는 — the same 대신",
+        "answer": "consistent",
+        "flag": ""
+      },
+      {
+        "prompt": "이것으로 ~을 대체합니다. ~은 무시해 주세요 (패턴)",
+        "answer": "This replaces ~. Please ignore ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~라고 들었는데, ~입니다 (패턴)",
+        "answer": "I was told (that) ~, but ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "제가 확인한 바로는 ~입니다 (패턴)",
+        "answer": "As far as I can see, ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "진행하다: ____ with ~ — go ahead 대신",
+        "answer": "proceed",
+        "flag": ""
+      },
+      {
+        "prompt": "(한도를) 넘다, 초과하다 — is more than 대신",
+        "answer": "exceed",
+        "flag": ""
+      },
+      {
+        "prompt": "일정을 다시 잡다 — change the date 대신",
+        "answer": "reschedule",
+        "flag": ""
+      },
+      {
+        "prompt": "허용량, 한도: baggage ____ — limit 대신",
+        "answer": "allowance",
+        "flag": ""
+      },
+      {
+        "prompt": "~ 대신 ~하기로 했습니다 (패턴, instead of 뒤는 명사·동명사)",
+        "answer": "We have decided to ~ instead of ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(자료·숫자·번역이) 정확한 (형용사) — correct 대신",
+        "answer": "accurate",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(필요성·금액의) 타당한 이유를 대다 — give a reason 대신",
+        "answer": "justify",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(문제·질문을) 다루다, 처리하다 — answer / handle 대신",
+        "answer": "address",
+        "flag": "오답"
+      },
+      {
+        "prompt": "명확히 하다, 분명히 설명하다 (verify와 구분) — explain clearly 대신",
+        "answer": "clarify",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "다시 검토하다: Could you r__________ the Nov 4 deadline?",
+      "answer": "reconsider"
+    },
+    {
+      "prompt": "누락: Please check the VAT column for any o________.",
+      "answer": "omission(s)"
+    },
+    {
+      "prompt": "자격이 되는: Former sewers are e_______ to return at their previous grade.",
+      "answer": "eligible"
+    },
+    {
+      "prompt": "면제하다: Please ask Hecny to w____ the scan fee in writing.",
+      "answer": "waive"
+    },
+    {
+      "prompt": "끌어오다: A Sunday audition may a______ more young sewers.",
+      "answer": "attract"
+    }
+  ],
+  "words": [
+    {
+      "word": "reconsider",
+      "pos": "v.",
+      "meaning": "다시 검토하다 — think again 대신",
+      "example": "Nga asked me to reconsider the deadline for the October list.",
+      "collocations": "reconsider the deadline / reconsider a decision"
+    },
+    {
+      "word": "omission",
+      "pos": "n.",
+      "meaning": "누락, 빠뜨림 — missing 대신",
+      "example": "Please fill in the supplier name on every line without omission.",
+      "collocations": "without omission / check for omissions"
+    },
+    {
+      "word": "eligible",
+      "pos": "adj.",
+      "meaning": "(조건상) 해당되는, 자격이 되는 — can get 대신",
+      "example": "Only lines with VAT are eligible for a refund.",
+      "collocations": "be eligible for + [명사] / be eligible to + [동사]"
+    },
+    {
+      "word": "waive",
+      "pos": "v.",
+      "meaning": "(요금·조건을) 면제하다 — not charge 대신",
+      "example": "Hecny will waive the scan fee for Vince GOHH air shipments.",
+      "collocations": "waive the fee / waive the requirement"
+    },
+    {
+      "word": "attract",
+      "pos": "v.",
+      "meaning": "(사람을) 끌어오다, 모으다 — get 대신",
+      "example": "We need low-cost ideas to attract about 25 sewers a month.",
+      "collocations": "attract new workers / attract applicants"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "I'm afraid (that) ~.",
+      "meaning": "유감이지만 ~입니다 (sorry, we cannot 대신, 정중하게 안 된다고 할 때)",
+      "skeleton": "I'm afraid (that) + [주어][동사]",
+      "email": "I'm afraid we cannot pay the fee without written confirmation.",
+      "spoken": "Sorry, that won't work."
+    },
+    {
+      "pattern": "I would appreciate it if you could ~.",
+      "meaning": "~해 주시면 감사하겠습니다 (please만 쓰는 대신, 부탁을 더 정중하게)",
+      "skeleton": "I would appreciate it if + you could + [동사원형]",
+      "email": "I would appreciate it if you could send the October list by Nov 5.",
+      "spoken": "It'd be great if you could send it by Thursday."
+    },
+    {
+      "pattern": "Even if ~, please ~.",
+      "meaning": "~하더라도 ~해 주세요 (although not finished 대신, 조건이 안 돼도 먼저 하라고 할 때)",
+      "skeleton": "Even if + [주어][동사], please + [동사원형]",
+      "email": "Even if the closing is not finished, please send what you have by Nov 5.",
+      "spoken": "Even if it's not done, send me what you have."
+    }
+  ],
+  "rewrite": {
+    "original": "I would like to know if these can work on the floor, how workers may react, and if you have better ideas.",
+    "improved": "I would like to know whether these ideas are feasible on the floor, how workers may react, and whether you have better ideas.",
+    "note": "if → whether: 된다/안 된다 둘 중 하나를 답하라는 뜻이 분명해진다. these → these ideas: 주어가 무엇인지 보이게. can work → are feasible: 지난 시험 오답 단어 feasible을 실제 문장에 써 보는 자리. 세 덩어리 모두 주어·동사가 있어 구조는 원문이 이미 좋다. 점검: 주어 these ideas / 동사 are · 주어 workers / 동사 may react · 주어 you / 동사 have / whether 뒤 절 있음"
+  },
+  "source": "11/02 보낸 메일(재봉사 50명 채용 아이디어 의견 요청, 10월 구매비용 리스트 지시, Hecny 검색비 확인 요청, 소모품 보고 인계), 받은 메일(Nga 'I'm afraid the 4th won't be feasible'·'I would appreciate it if', Celina 'without omission'·'Even if')"
+}
