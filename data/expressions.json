@@ -838,5 +838,85 @@
     "learned": "2026-11-03",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "consent",
+    "kind": "단어",
+    "pos": "n./v.",
+    "meaning": "(개인정보 사용 등에 대한) 동의",
+    "topic": "인사·노무",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "breakdown",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "세부 내역, 항목별 분해",
+    "topic": "인사·노무",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "retain",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(사람을) 붙잡아 두다, 계속 근무하게 하다",
+    "topic": "인사·노무",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "load",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "(전기·기계의) 부하",
+    "topic": "총무·시설",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "instruct",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "지시하다",
+    "topic": "회의·대화",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "~, which means ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~이고, 그 말은 ~라는 뜻입니다",
+    "topic": "본사 보고",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Before we ~, we need to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하기 전에 ~해야 합니다",
+    "topic": "인사·노무",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'll get back to you on ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~은 따로 다시 연락드리겠습니다",
+    "topic": "본사 보고",
+    "learned": "2026-11-04",
+    "wrong": false,
+    "first_used": null
   }
 ]

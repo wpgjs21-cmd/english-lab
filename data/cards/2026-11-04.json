@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-04",
+  "weekday": "수",
+  "note": "",
+  "routine": "복습 3분(영어 가리고 먼저 쓰기) → 가리고 써 보기 2분(빈칸 먼저, 맨 끝 정답 확인) → 새 내용 5분(노트에 옮길 때 짝 표현째로) → 소리 내어 3번 읽기 3분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/03·10/27 표현 + 오답 4개)",
+    "items": [
+      {
+        "prompt": "다시 검토하다 — think again 대신",
+        "answer": "reconsider",
+        "flag": ""
+      },
+      {
+        "prompt": "누락, 빠뜨림: without ____ — missing 대신",
+        "answer": "omission",
+        "flag": ""
+      },
+      {
+        "prompt": "(조건상) 해당되는, 자격이 되는: be ____ for — can get 대신",
+        "answer": "eligible",
+        "flag": ""
+      },
+      {
+        "prompt": "(요금·조건을) 면제하다 — not charge 대신",
+        "answer": "waive",
+        "flag": ""
+      },
+      {
+        "prompt": "(사람을) 끌어오다, 모으다 — get 대신",
+        "answer": "attract",
+        "flag": ""
+      },
+      {
+        "prompt": "유감이지만 ~입니다 (패턴)",
+        "answer": "I'm afraid (that) ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~해 주시면 감사하겠습니다 (패턴)",
+        "answer": "I would appreciate it if you could ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~하더라도 ~해 주세요 (패턴)",
+        "answer": "Even if ~, please ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(문제의) 영향을 받은, 해당되는: the ____ quantity",
+        "answer": "affected",
+        "flag": ""
+      },
+      {
+        "prompt": "예상되는: the ____ completion date",
+        "answer": "expected",
+        "flag": ""
+      },
+      {
+        "prompt": "(점검·시험에서) 발견하다, 확인하다 — find 대신",
+        "answer": "observe",
+        "flag": ""
+      },
+      {
+        "prompt": "~되는 대로 바로 알려 주세요 (패턴)",
+        "answer": "Please update us as soon as ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~까지 ~는 보류해 주세요 (패턴, on 뒤는 동명사)",
+        "answer": "Please hold off on ~ until ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~이 ~까지라는 점 다시 알려 드립니다 (패턴)",
+        "answer": "Just a reminder that ~ is due ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "수령, 받음: confirm ____ of ~ — got it 대신",
+        "answer": "receipt",
+        "flag": "오답"
+      },
+      {
+        "prompt": "전담의: a ____ team — only for this 대신",
+        "answer": "dedicated",
+        "flag": "오답"
+      },
+      {
+        "prompt": "우선 처리하다, 먼저 하다 — do first 대신",
+        "answer": "prioritize",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(결과·수치를) 기록하다: ____ the temperature — write 대신",
+        "answer": "log",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "동의: Please get their c______ before you call them.",
+      "answer": "consent"
+    },
+    {
+      "prompt": "세부 내역: Please send a b________ of the cost by idea.",
+      "answer": "breakdown"
+    },
+    {
+      "prompt": "붙잡아 두다: Which idea will help us r_____ new sewers after Tet?",
+      "answer": "retain"
+    },
+    {
+      "prompt": "부하: Please measure the cabinet temperature under full l___.",
+      "answer": "load"
+    },
+    {
+      "prompt": "지시하다: As i_________ by Mr Moon, the canteen check is now monthly.",
+      "answer": "instructed"
+    }
+  ],
+  "words": [
+    {
+      "word": "consent",
+      "pos": "n./v.",
+      "meaning": "(개인정보 사용 등에 대한) 동의 — OK / permission 대신",
+      "example": "We will call the 60 sewers only after we get their consent to use their phone numbers.",
+      "collocations": "get (written) consent / consent to + [명사·동사]"
+    },
+    {
+      "word": "breakdown",
+      "pos": "n.",
+      "meaning": "세부 내역, 항목별 분해 — numbers for each 대신",
+      "example": "Please send a cost breakdown for each recruitment idea.",
+      "collocations": "a cost breakdown / a breakdown by idea (by month)"
+    },
+    {
+      "word": "retain",
+      "pos": "v.",
+      "meaning": "(사람을) 붙잡아 두다, 계속 근무하게 하다 — still working 대신",
+      "example": "We need to know how many new sewers we can retain after Tet.",
+      "collocations": "retain staff / retention rate"
+    },
+    {
+      "word": "load",
+      "pos": "n.",
+      "meaning": "(전기·기계의) 부하 — while the machines are running 대신",
+      "example": "Please measure the cabinet temperature under full load during working hours.",
+      "collocations": "under full load / at peak load"
+    },
+    {
+      "word": "instruct",
+      "pos": "v.",
+      "meaning": "지시하다 — It's Mr Moon direction 대신",
+      "example": "As instructed by Mr Moon, please visit the kitchen once a month.",
+      "collocations": "as instructed by + [사람] / instruct [사람] to + [동사]"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "~, which means ~.",
+      "meaning": "~이고, 그 말은 ~라는 뜻입니다 (and so 대신, 숫자 뒤에 의미를 붙일 때)",
+      "skeleton": "[문장], which means + [주어][동사]",
+      "email": "The line worked at 86% efficiency, which means it meets the IE standard.",
+      "spoken": "It's 86%, so we're fine."
+    },
+    {
+      "pattern": "Before we ~, we need to ~.",
+      "meaning": "~하기 전에 ~해야 합니다 (only after checking 대신, 먼저 할 일을 못 박을 때)",
+      "skeleton": "Before + we + [동사], we need to + [동사원형]",
+      "email": "Before we call them, we need to confirm that we may use their personal data.",
+      "spoken": "Let's check that first."
+    },
+    {
+      "pattern": "I'll get back to you on ~.",
+      "meaning": "~은 따로 다시 연락드리겠습니다 (I will review separately 대신, 답을 미룰 때)",
+      "skeleton": "I'll get back to you on + [명사] (+ by [날짜])",
+      "email": "I'll get back to you on the CM part separately by Friday.",
+      "spoken": "Let me get back to you on that."
+    }
+  ],
+  "rewrite": {
+    "original": "Please visit the supplier's kitchen once a month, not once a quarter. It's Mr Moon direction.",
+    "improved": "As instructed by Mr Moon, please visit the supplier's kitchen once a month instead of once a quarter.",
+    "note": "\"It's Mr Moon direction\"은 소유격('s)과 관사가 빠져 문법이 깨진다. 이유를 뒤에 따로 붙이지 말고 As instructed by Mr Moon으로 문장 앞에 두면 누구 지시인지 먼저 보인다. not once a quarter → instead of once a quarter(10/30 패턴)로 한 문장으로 묶었다. 점검: 주어 (you, 명령문) / 동사 visit / 앞 구절 As instructed by는 절이 아니라 구라 주어·동사 없어도 된다"
+  },
+  "source": "11/03 보낸 메일(Tho 미싱사 60명 연락·아이디어별 숫자 요청, An 분전반 가동 중 온도 측정, Thao IE 효율 86% 회신, Tho 급식 점검 월 1회 지시, Asanka 항공권), 받은 메일(본사 MES 기계 현황 요청)"
+}
