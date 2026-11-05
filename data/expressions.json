@@ -918,5 +918,85 @@
     "learned": "2026-11-04",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "withhold",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(지급·승인을) 보류하다 — cannot pay 대신",
+    "topic": "총무·시설",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "faulty",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "고장 난, 결함 있는 — broken 대신",
+    "topic": "총무·시설",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "relocate",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(사람·물건을) 옮기다, 이전하다 — move 대신",
+    "topic": "인사·노무",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "premium",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "보험료 — insurance cost / fee 대신",
+    "topic": "구매·품의",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "notify",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(공식적으로) 알리다, 통보하다 — tell / inform 대신",
+    "topic": "회의·대화",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Payment will be made only once ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "지급은 ~된 뒤에만 하겠습니다",
+    "topic": "총무·시설",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "If that's not possible, please check whether ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "그게 안 되면 ~가 가능한지 확인해 주세요",
+    "topic": "총무·시설",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Could you walk me through how ~?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~을 어떻게 하는지 차례로 설명해 주시겠어요?",
+    "topic": "수출입·통관",
+    "learned": "2026-11-05",
+    "wrong": false,
+    "first_used": null
   }
 ]

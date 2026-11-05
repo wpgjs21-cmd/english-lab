@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-05",
+  "weekday": "목",
+  "note": "",
+  "routine": "복습 3분(영어 가리고 먼저 쓰기) → 가리고 써 보기 2분(빈칸 먼저, 맨 끝 정답 확인) → 새 내용 5분(노트에 옮길 때 짝 표현째로) → 소리 내어 3번 읽기 3분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/04 전체·11/02·10/28 단어 + 오답 4개)",
+    "items": [
+      {
+        "prompt": "동의: get their ____ — OK / permission 대신",
+        "answer": "consent",
+        "flag": ""
+      },
+      {
+        "prompt": "세부 내역: a cost ____ — numbers for each 대신",
+        "answer": "breakdown",
+        "flag": ""
+      },
+      {
+        "prompt": "(사람을) 붙잡아 두다 — still working 대신",
+        "answer": "retain",
+        "flag": ""
+      },
+      {
+        "prompt": "(전기·기계의) 부하: under full ____",
+        "answer": "load",
+        "flag": ""
+      },
+      {
+        "prompt": "지시하다: as ____ by Mr Moon",
+        "answer": "instruct (instructed)",
+        "flag": ""
+      },
+      {
+        "prompt": "~이고, 그 말은 ~라는 뜻입니다 (패턴)",
+        "answer": "~, which means ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~하기 전에 ~해야 합니다 (패턴)",
+        "answer": "Before we ~, we need to ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~은 따로 다시 연락드리겠습니다 (패턴)",
+        "answer": "I'll get back to you on ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(두 자료를) 맞춰 보다, 대사하다",
+        "answer": "reconcile",
+        "flag": ""
+      },
+      {
+        "prompt": "(조사·점검을) 실시하다 — do 대신",
+        "answer": "conduct",
+        "flag": ""
+      },
+      {
+        "prompt": "충분한 — enough 대신",
+        "answer": "sufficient",
+        "flag": ""
+      },
+      {
+        "prompt": "지정된: the ____ places",
+        "answer": "designated",
+        "flag": ""
+      },
+      {
+        "prompt": "일관된, 서로 맞는: keep the format ____",
+        "answer": "consistent",
+        "flag": ""
+      },
+      {
+        "prompt": "명확히 하다, 분명히 설명하다 — explain 대신",
+        "answer": "clarify",
+        "flag": "오답"
+      },
+      {
+        "prompt": "반드시 ~하도록 하다 — make sure 대신",
+        "answer": "ensure",
+        "flag": ""
+      },
+      {
+        "prompt": "과거의, 이전 기간의: ____ receipts",
+        "answer": "historical",
+        "flag": ""
+      },
+      {
+        "prompt": "필수의, 의무적인 — must 대신",
+        "answer": "mandatory",
+        "flag": ""
+      },
+      {
+        "prompt": "중복된: ____ work",
+        "answer": "duplicate",
+        "flag": ""
+      },
+      {
+        "prompt": "(필요성·금액의) 타당한 이유를 대다",
+        "answer": "justify",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(문제·질문을) 다루다, 처리하다",
+        "answer": "address",
+        "flag": "오답"
+      },
+      {
+        "prompt": "실행 가능한 — possible 대신",
+        "answer": "feasible",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(규정·기준을) 준수하다: ____ the buyer RSL",
+        "answer": "comply with",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "보류하다: Please w_______ the final 30% until the defects are fixed.",
+      "answer": "withhold"
+    },
+    {
+      "prompt": "고장 난: Please list the f_____ machines by line.",
+      "answer": "faulty"
+    },
+    {
+      "prompt": "옮기다: We plan to r_______ the spare machines to Warehouse 2.",
+      "answer": "relocate"
+    },
+    {
+      "prompt": "보험료: Please compare the annual p______ of the two options.",
+      "answer": "premium"
+    },
+    {
+      "prompt": "통보하다: Please n_____ HR if a worker is absent for 3 days.",
+      "answer": "notify"
+    }
+  ],
+  "words": [
+    {
+      "word": "withhold",
+      "pos": "v.",
+      "meaning": "(지급·승인을) 보류하다 — cannot pay 대신",
+      "example": "We will withhold payment until the cabinet temperatures are confirmed normal.",
+      "collocations": "withhold payment / withhold approval"
+    },
+    {
+      "word": "faulty",
+      "pos": "adj.",
+      "meaning": "고장 난, 결함 있는 — broken 대신",
+      "example": "The number of faulty machines rose from 28 in June to 60 now.",
+      "collocations": "faulty machines / a faulty part"
+    },
+    {
+      "word": "relocate",
+      "pos": "v.",
+      "meaning": "(사람·물건을) 옮기다, 이전하다 — move 대신",
+      "example": "At the end of February, Mr [이름] will relocate to the company apartment.",
+      "collocations": "relocate to + [장소] / relocation cost"
+    },
+    {
+      "word": "premium",
+      "pos": "n.",
+      "meaning": "보험료 — insurance cost / fee 대신",
+      "example": "Please send me the premium for the 6-month and 1-year options by Nov 6.",
+      "collocations": "annual premium / premium quote"
+    },
+    {
+      "word": "notify",
+      "pos": "v.",
+      "meaning": "(공식적으로) 알리다, 통보하다 — tell / inform 대신",
+      "example": "Please notify the contractor of the payment condition before the Sunday work.",
+      "collocations": "notify [사람] of + [내용] / notify [사람] in writing"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Payment will be made only once ~.",
+      "meaning": "지급은 ~된 뒤에만 하겠습니다 (We will pay after ~. If not, we cannot pay. 대신, 조건을 한 문장으로)",
+      "skeleton": "Payment will be made only once + [주어][동사]",
+      "email": "Payment will be made only once all 9 cabinets show normal temperatures.",
+      "spoken": "We'll pay once it's fixed."
+    },
+    {
+      "pattern": "If that's not possible, please check whether ~.",
+      "meaning": "그게 안 되면 ~가 가능한지 확인해 주세요 (If ~ cannot do it, please check if 대신, 대안을 줄 때)",
+      "skeleton": "If that's not possible, please check whether + [주어][동사]",
+      "email": "If that's not possible, please check whether we can rent a thermal camera.",
+      "spoken": "If not, can we rent one?"
+    },
+    {
+      "pattern": "Could you walk me through how ~?",
+      "meaning": "~을 어떻게 하는지 차례로 설명해 주시겠어요? (please let me know how you ~ 대신)",
+      "skeleton": "Could you walk me through how + [주어][동사]?",
+      "email": "Could you walk me through how you allocate shared fabric to each style?",
+      "spoken": "Can you walk me through it?"
+    }
+  ],
+  "rewrite": {
+    "original": "Today is the deadline for the ExIm Ledger, but I see no changes in the file since 11/2.",
+    "improved": "The ExIm Ledger is due today, but the file has not been updated since 11/2.",
+    "note": "since + 시점(11/2) 뒤에는 현재완료(has not been updated)를 쓴다. I see no changes는 현재형이라 since와 맞지 않는다. 주어를 I가 아니라 the file로 바꾸면 '내가 못 봤다'가 아니라 '파일이 그대로다'라는 사실이 된다. Today is the deadline → is due today(10/27 패턴)로 짧게. 점검: 주어 the file / 동사 has not been updated / but 뒤에 절(주어+동사) 있음, since 뒤는 시점이라 절 아님"
+  },
+  "source": "11/04 보낸 메일(An 분전반 열화상 측정·지급 조건, Hao OFF 기계 28→60대·명판 확인, Nga 화재보험 6개월·1년 2안 보험료, Mint·Trinh 공용 원단 배분 방법, Trinh ExIm Ledger 기한, Asanka 숙소 안내, Tho 미싱 챌린지 영상 준비)"
+}
