@@ -998,5 +998,75 @@
     "learned": "2026-11-05",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "disregard",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(공식적으로) 무시하다, 신경 쓰지 않다",
+    "topic": "회의·대화",
+    "learned": "2026-11-06",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "prompt",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "신속한, 즉각적인",
+    "topic": "수출입·통관",
+    "learned": "2026-11-06",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "outdated",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "지난, 최신이 아닌",
+    "topic": "수출입·통관",
+    "learned": "2026-11-06",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "manually",
+    "kind": "단어",
+    "pos": "adv.",
+    "meaning": "손으로, 수작업으로",
+    "topic": "수출입·통관",
+    "learned": "2026-11-06",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "cover",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(비용·보험·지원금이) 포함하다, 보장하다",
+    "topic": "총무·시설",
+    "learned": "2026-11-06",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "It turned out that ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "알고 보니 ~였습니다",
+    "topic": "회의·대화",
+    "learned": "2026-11-06",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please ~ by ~ at the latest.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "늦어도 ~까지 ~해 주세요",
+    "topic": "인사·노무",
+    "learned": "2026-11-06",
+    "wrong": false,
+    "first_used": null
   }
 ]
