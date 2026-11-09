@@ -1068,5 +1068,55 @@
     "learned": "2026-11-06",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "estimate",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "대략의 숫자, 추정치",
+    "topic": "인사·노무",
+    "learned": "2026-11-09",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "assess",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(상태·위험을) 평가하다, 따져 보다",
+    "topic": "총무·시설",
+    "learned": "2026-11-09",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "~ will take over ~, while you continue to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "앞으로 ~가 ~을 맡고, 당신은 계속 ~해 주세요",
+    "topic": "회의·대화",
+    "learned": "2026-11-09",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "To clarify, I'm asking about ~, not just ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "다시 말씀드리면, ~만이 아니라 ~을 묻는 겁니다",
+    "topic": "인사·노무",
+    "learned": "2026-11-09",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "For your reference, here is how we ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "참고로, 저희는 ~을 이렇게 했습니다",
+    "topic": "본사 보고",
+    "learned": "2026-11-09",
+    "wrong": false,
+    "first_used": null
   }
 ]

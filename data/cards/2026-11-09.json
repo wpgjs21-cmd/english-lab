@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-09",
+  "weekday": "월",
+  "note": "이번 주부터 단어 5개 → 4개. 남는 시간은 오답 복습(뜻만 보고 영어를 가린 채 쓰기)에 씁니다.",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/05 표현 + 오답 5개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "(지급·승인을) 보류하다: ____ payment — cannot pay 대신",
+        "answer": "withhold",
+        "flag": ""
+      },
+      {
+        "prompt": "고장 난, 결함 있는: ____ machines — broken 대신",
+        "answer": "faulty",
+        "flag": ""
+      },
+      {
+        "prompt": "(사람·물건을) 옮기다, 이전하다 — move 대신",
+        "answer": "relocate",
+        "flag": ""
+      },
+      {
+        "prompt": "보험료: annual ____",
+        "answer": "premium",
+        "flag": ""
+      },
+      {
+        "prompt": "(공식적으로) 알리다, 통보하다 — tell 대신",
+        "answer": "notify",
+        "flag": ""
+      },
+      {
+        "prompt": "지급은 ~된 뒤에만 하겠습니다 (패턴)",
+        "answer": "Payment will be made only once ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "그게 안 되면 ~가 가능한지 확인해 주세요 (패턴)",
+        "answer": "If that's not possible, please check whether ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~을 어떻게 하는지 차례로 설명해 주시겠어요? (패턴)",
+        "answer": "Could you walk me through how ~?",
+        "flag": ""
+      },
+      {
+        "prompt": "실행 가능한 — possible to do 대신",
+        "answer": "feasible",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(규정·기준을) 준수하다 — follow 대신",
+        "answer": "comply with",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(문제·질문을) 다루다, 처리하다 — answer / handle 대신",
+        "answer": "address",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(필요성·금액의) 타당한 이유를 대다 — give a reason 대신",
+        "answer": "justify",
+        "flag": "오답"
+      },
+      {
+        "prompt": "명확히 하다, 분명히 설명하다 — explain clearly 대신",
+        "answer": "clarify",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "관리·감독하다: The safety officer will o______ the fire drill on Saturday.",
+      "answer": "oversee"
+    },
+    {
+      "prompt": "추정치: Can you give me a rough e_______ of the repair cost?",
+      "answer": "estimate"
+    },
+    {
+      "prompt": "~가 정해질 때까지: The PR is on hold p______ budget approval.",
+      "answer": "pending"
+    },
+    {
+      "prompt": "평가하다: Please a_____ the risk before we move the machines.",
+      "answer": "assess"
+    },
+    {
+      "prompt": "앞으로 총무 담당이 기숙사 점검을 맡고, 당신은 계속 업체 연락을 맡아 주세요. (주어·동사 넣기)",
+      "answer": "The admin staff will take over the dormitory checks, while you continue to contact the suppliers."
+    },
+    {
+      "prompt": "참고로, 저희가 작년에 보험을 갱신한 방법은 이렇습니다. (주어·동사 넣기)",
+      "answer": "For your reference, here is how we renewed the insurance last year."
+    }
+  ],
+  "words": [
+    {
+      "word": "oversee",
+      "pos": "v.",
+      "meaning": "책임지고 살피다, 관리·감독하다 — be in charge of checking 대신",
+      "example": "From now on, the CAD leader will oversee the condition of the CAD room machines.",
+      "collocations": "oversee the inspection / oversee the work"
+    },
+    {
+      "word": "estimate",
+      "pos": "n.",
+      "meaning": "대략의 숫자, 추정치 — roughly how many 대신",
+      "example": "Please give me an estimate of how many sewers may join and the total cost.",
+      "collocations": "a rough estimate / give an estimate of ~"
+    },
+    {
+      "word": "pending",
+      "pos": "prep.",
+      "meaning": "~가 정해질 때까지 — until we decide 대신",
+      "example": "Pending our decision, please do not wash the dummies.",
+      "collocations": "pending approval / pending HQ's decision"
+    },
+    {
+      "word": "assess",
+      "pos": "v.",
+      "meaning": "(상태·위험을) 평가하다, 따져 보다 — check the condition 대신",
+      "example": "Please assess the condition of each dummy and tell me if it needs a new cover.",
+      "collocations": "assess the condition / assess the risk"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "~ will take over ~, while you continue to ~.",
+      "meaning": "앞으로 ~가 ~을 맡고, 당신은 계속 ~해 주세요 (From now on X will be in charge, you will keep 대신, 역할을 나눌 때)",
+      "skeleton": "[사람] will take over + [명사/동사-ing], while you continue to + [동사원형]",
+      "email": "The CAD leader will take over checking the CAD machines, while you continue to handle quotations and PRs.",
+      "spoken": "She takes the checks, you keep the PRs."
+    },
+    {
+      "pattern": "To clarify, I'm asking about ~, not just ~.",
+      "meaning": "다시 말씀드리면, ~만이 아니라 ~을 묻는 겁니다 (My question is not only about 대신, 상대가 질문을 좁게 이해했을 때)",
+      "skeleton": "To clarify, I'm asking about + [명사], not just + [명사]",
+      "email": "To clarify, I'm asking about sewers from other companies, not just former workers.",
+      "spoken": "I mean everyone, not just former workers."
+    },
+    {
+      "pattern": "For your reference, here is how we ~.",
+      "meaning": "참고로, 저희는 ~을 이렇게 했습니다 (다른 법인·본사에 사례를 공유할 때)",
+      "skeleton": "For your reference, here is how + [주어][동사]",
+      "email": "For your reference, here is how we sold the hanger lines to our sister factory in April.",
+      "spoken": "Just so you know, this is how we did it."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/06·11/09 보낸 메일(IT 담당 CAD실 기계 점검 역할 분담, 인사 담당 급여 질문 범위 정정, 샘플실 관리자 더미 상태 점검 요청, 자매 법인 회계 담당 설비 이관 사례 공유)"
+}
