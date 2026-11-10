@@ -1118,5 +1118,75 @@
     "learned": "2026-11-09",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "overdue",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "기한이 지난",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-10",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "inconsistent",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "서로 맞지 않는, 앞뒤가 다른",
+    "topic": "본사 보고",
+    "learned": "2026-11-10",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "scope",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "(작업·견적의) 범위",
+    "topic": "구매·품의",
+    "learned": "2026-11-10",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "exclude",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "빼다, 제외하다",
+    "topic": "구매·품의",
+    "learned": "2026-11-10",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "If you cannot ~, please let me know the reason and the date you can ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~를 못 하면 이유와 끝낼 수 있는 날짜를 알려 주세요",
+    "topic": "회의·대화",
+    "learned": "2026-11-10",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "A says (that) ~, whereas B says (that) ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "A에는 ~라고 되어 있는 반면, B에는 ~라고 되어 있습니다",
+    "topic": "본사 보고",
+    "learned": "2026-11-10",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Instead of ~ing, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하는 대신 ~해 주세요",
+    "topic": "회의·대화",
+    "learned": "2026-11-10",
+    "wrong": false,
+    "first_used": null
   }
 ]

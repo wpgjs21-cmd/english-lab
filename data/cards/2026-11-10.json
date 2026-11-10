@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-10",
+  "weekday": "화",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": {
+    "test_date": "2026-11-07",
+    "focus": "11/7(토) 주간시험이 만들어지지 않아 채점할 시험이 없음(토요일 실행 누락 추정)",
+    "experts": [],
+    "change": "학습설정 변경 없음. 11/14(토) 시험은 정상 출제"
+  },
+  "review": {
+    "title": "복습 (11/09·11/06 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "책임지고 살피다, 관리·감독하다 — be in charge of checking 대신",
+        "answer": "oversee",
+        "flag": ""
+      },
+      {
+        "prompt": "대략의 숫자, 추정치: a rough ____",
+        "answer": "estimate",
+        "flag": ""
+      },
+      {
+        "prompt": "~가 정해질 때까지: ____ approval",
+        "answer": "pending",
+        "flag": ""
+      },
+      {
+        "prompt": "(상태·위험을) 평가하다 — check the condition 대신",
+        "answer": "assess",
+        "flag": ""
+      },
+      {
+        "prompt": "앞으로 ~가 ~을 맡고, 당신은 계속 ~해 주세요 (패턴)",
+        "answer": "~ will take over ~, while you continue to ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "다시 말씀드리면, ~만이 아니라 ~을 묻는 겁니다 (패턴)",
+        "answer": "To clarify, I'm asking about ~, not just ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "참고로, 저희는 ~을 이렇게 했습니다 (패턴)",
+        "answer": "For your reference, here is how we ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(공식적으로) 무시하다: Please ____ my email below.",
+        "answer": "disregard",
+        "flag": ""
+      },
+      {
+        "prompt": "신속한, 즉각적인: Thank you for your ____ reply.",
+        "answer": "prompt",
+        "flag": ""
+      },
+      {
+        "prompt": "지난, 최신이 아닌 — old 대신",
+        "answer": "outdated",
+        "flag": ""
+      },
+      {
+        "prompt": "손으로, 수작업으로 — by hand 대신",
+        "answer": "manually",
+        "flag": ""
+      },
+      {
+        "prompt": "(비용·보험이) 포함하다, 보장하다 — include 대신",
+        "answer": "cover",
+        "flag": ""
+      },
+      {
+        "prompt": "수령, 받음: confirm ____ of ~",
+        "answer": "receipt",
+        "flag": "오답"
+      },
+      {
+        "prompt": "전담의: a ____ team",
+        "answer": "dedicated",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "기한이 지난: The fire extinguisher check is two weeks o______.",
+      "answer": "overdue"
+    },
+    {
+      "prompt": "서로 맞지 않는: The headcount in the report is i___________ with the attendance data.",
+      "answer": "inconsistent"
+    },
+    {
+      "prompt": "범위: Please write the s____ of work in the PR.",
+      "answer": "scope"
+    },
+    {
+      "prompt": "제외하다: Please e______ resigned workers from the list.",
+      "answer": "exclude"
+    },
+    {
+      "prompt": "이번 주 금요일까지 못 끝내면, 이유와 끝낼 수 있는 날짜를 알려 주세요. (주어·동사 넣기)",
+      "answer": "If you cannot finish it by this Friday, please let me know the reason and the date you can finish."
+    },
+    {
+      "prompt": "계약서에는 점검이 월 1회라고 되어 있는 반면, 보고서에는 분기 1회라고 되어 있습니다. (주어·동사 넣기)",
+      "answer": "The contract says the check is monthly, whereas the report says it is quarterly."
+    }
+  ],
+  "words": [
+    {
+      "word": "overdue",
+      "pos": "adj.",
+      "meaning": "기한이 지난 — was due on ~, but not done 대신",
+      "example": "No. 1 and No. 3 are now overdue, so please finish them today.",
+      "collocations": "two days overdue / an overdue payment"
+    },
+    {
+      "word": "inconsistent",
+      "pos": "adj.",
+      "meaning": "서로 맞지 않는, 앞뒤가 다른 — do not match 대신",
+      "example": "Sections 4.1.3 and 4.2.5 are inconsistent about who buys the raw materials.",
+      "collocations": "inconsistent with ~ / inconsistent data"
+    },
+    {
+      "word": "scope",
+      "pos": "n.",
+      "meaning": "(작업·견적의) 범위 — the same work items 대신",
+      "example": "Please ask all three companies to quote the same scope.",
+      "collocations": "scope of work / out of scope"
+    },
+    {
+      "word": "exclude",
+      "pos": "v.",
+      "meaning": "빼다, 제외하다 — do not include 대신",
+      "example": "The current contractor is doing our lug work, so please exclude them.",
+      "collocations": "exclude A from B / excluding VAT"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "If you cannot ~, please let me know the reason and the date you can ~.",
+      "meaning": "~를 못 하면 이유와 끝낼 수 있는 날짜를 알려 주세요 (기한을 넘긴 직원에게 마지막으로 확인할 때)",
+      "skeleton": "If you cannot + [동사원형], please let me know the reason and the date you can + [동사원형]",
+      "email": "If you cannot finish No. 2 by Nov 10, please let me know the reason and the date you can finish.",
+      "spoken": "If not, tell me why and when."
+    },
+    {
+      "pattern": "A says (that) ~, whereas B says (that) ~.",
+      "meaning": "A에는 ~라고 되어 있는 반면, B에는 ~라고 되어 있습니다 (but ..., so they do not match 대신, 두 문서가 다를 때)",
+      "skeleton": "[문서 A] says (that) + [주어][동사], whereas [문서 B] says (that) + [주어][동사]",
+      "email": "Section 4.1.3 says we pay for raw materials, whereas Section 4.2.5 says customers supply them.",
+      "spoken": "This page says one thing, that page says another."
+    },
+    {
+      "pattern": "Instead of ~ing, please ~.",
+      "meaning": "~하는 대신 ~해 주세요 (일하는 방법을 바꿔 달라고 할 때)",
+      "skeleton": "Instead of + [동사-ing], please + [동사원형]",
+      "email": "Instead of saving the files on your PC, please keep them in the shared folder.",
+      "spoken": "Don't keep it on your PC, use the shared folder."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/09 보낸 메일(창고 담당 실사 정정 리마인드, 회계 담당 보고서 두 절 불일치 정정 요청, 총무 담당 전기점검 견적 범위 지시, CAD 담당 템플릿 파일 공유 폴더 저장 지시)"
+}
