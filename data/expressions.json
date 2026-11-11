@@ -1188,5 +1188,75 @@
     "learned": "2026-11-10",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "on hand",
+    "kind": "단어",
+    "pos": "phr.",
+    "meaning": "현재 보유한, 가지고 있는",
+    "topic": "총무·시설",
+    "learned": "2026-11-11",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "issue",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(물품을) 내주다, 지급하다",
+    "topic": "총무·시설",
+    "learned": "2026-11-11",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "prorate",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(일한 기간만큼) 일할 계산하다",
+    "topic": "인사·노무",
+    "learned": "2026-11-11",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "revert",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(원래대로) 되돌아가다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-11",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please confirm with ~ whether ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~에게 ~인지 확인해 주세요",
+    "topic": "수출입·통관",
+    "learned": "2026-11-11",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please ~ in the same way as ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~와 같은 방식으로 ~해 주세요",
+    "topic": "인사·노무",
+    "learned": "2026-11-11",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please ~, so that we can ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~해 주세요, 그래야 ~할 수 있습니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-11",
+    "wrong": false,
+    "first_used": null
   }
 ]
