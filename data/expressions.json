@@ -1258,5 +1258,75 @@
     "learned": "2026-11-11",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "compatible",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "호환되는, 서로 맞는",
+    "topic": "구매·품의",
+    "learned": "2026-11-12",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "incorporate",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(의견·수정을) 반영하다",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-12",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "reassign",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(다른 일·자리로) 재배치하다",
+    "topic": "인사·노무",
+    "learned": "2026-11-12",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "overstate",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(숫자를) 실제보다 크게 잡다",
+    "topic": "본사 보고",
+    "learned": "2026-11-12",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Could you let me know where ~ stands?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~가 지금 어디까지 됐는지 알려 주세요",
+    "topic": "회의·대화",
+    "learned": "2026-11-12",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please make sure (that) ~. Otherwise, ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "반드시 ~인지 확인해 주세요. 그렇지 않으면 ~합니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-12",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "What would you suggest (that) we do if ~?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하면 어떻게 하는 게 좋을까요?",
+    "topic": "인사·노무",
+    "learned": "2026-11-12",
+    "wrong": false,
+    "first_used": null
   }
 ]
