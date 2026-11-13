@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-13",
+  "weekday": "금",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/12·11/10·11/05 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "호환되는, 서로 맞는: ____ with DDR4",
+        "answer": "compatible",
+        "flag": ""
+      },
+      {
+        "prompt": "(의견·수정을) 반영하다 — add / apply 대신",
+        "answer": "incorporate",
+        "flag": ""
+      },
+      {
+        "prompt": "(다른 일·자리로) 재배치하다: ____ A to B",
+        "answer": "reassign",
+        "flag": ""
+      },
+      {
+        "prompt": "(숫자를) 실제보다 크게 잡다 — 반대말 understate",
+        "answer": "overstate",
+        "flag": ""
+      },
+      {
+        "prompt": "~가 지금 어디까지 됐는지 알려 주세요 (패턴)",
+        "answer": "Could you let me know where ~ stands?",
+        "flag": ""
+      },
+      {
+        "prompt": "반드시 ~인지 확인해 주세요. 그렇지 않으면 ~합니다 (패턴)",
+        "answer": "Please make sure (that) ~. Otherwise, ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~하면 어떻게 하는 게 좋을까요? (패턴)",
+        "answer": "What would you suggest (that) we do if ~?",
+        "flag": ""
+      },
+      {
+        "prompt": "기한이 지난 — late 대신",
+        "answer": "overdue",
+        "flag": ""
+      },
+      {
+        "prompt": "서로 맞지 않는, 앞뒤가 다른: The two sections are ____.",
+        "answer": "inconsistent",
+        "flag": ""
+      },
+      {
+        "prompt": "(작업·견적의) 범위: the same ____",
+        "answer": "scope",
+        "flag": ""
+      },
+      {
+        "prompt": "빼다, 제외하다 — take out 대신",
+        "answer": "exclude",
+        "flag": ""
+      },
+      {
+        "prompt": "~를 못 하면 이유와 끝낼 수 있는 날짜를 알려 주세요 (패턴)",
+        "answer": "If you cannot ~, please let me know the reason and the date you can ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "A에는 ~라고 되어 있는 반면, B에는 ~라고 되어 있습니다 (패턴)",
+        "answer": "A says (that) ~, whereas B says (that) ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~하는 대신 ~해 주세요 (패턴)",
+        "answer": "Instead of ~ing, please ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(지급·승인을) 보류하다: ____ payment",
+        "answer": "withhold",
+        "flag": ""
+      },
+      {
+        "prompt": "고장 난, 결함 있는: ____ machines",
+        "answer": "faulty",
+        "flag": ""
+      },
+      {
+        "prompt": "(사람·물건을) 옮기다, 이전하다 — move 대신",
+        "answer": "relocate",
+        "flag": ""
+      },
+      {
+        "prompt": "보험료: the insurance ____",
+        "answer": "premium",
+        "flag": ""
+      },
+      {
+        "prompt": "(공식적으로) 알리다, 통보하다: ____ A of B",
+        "answer": "notify",
+        "flag": ""
+      },
+      {
+        "prompt": "지급은 ~된 뒤에만 하겠습니다 (패턴)",
+        "answer": "Payment will be made only once ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "그게 안 되면 ~가 가능한지 확인해 주세요 (패턴)",
+        "answer": "If that's not possible, please check whether ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~을 어떻게 하는지 차례로 설명해 주시겠어요? (패턴)",
+        "answer": "Could you walk me through how ~?",
+        "flag": ""
+      },
+      {
+        "prompt": "실행 가능한 — possible / OK 대신",
+        "answer": "feasible",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(규정·기준을) 준수하다 — follow 대신",
+        "answer": "comply with",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "최종 확정하다: Let's f_______ the overtime plan for next week.",
+      "answer": "finalize"
+    },
+    {
+      "prompt": "비교할 수 있는: These two quotes are not c_________ because the scope is different.",
+      "answer": "comparable"
+    },
+    {
+      "prompt": "서둘러 앞당기다: Can the forwarder e_______ the customs clearance?",
+      "answer": "expedite"
+    },
+    {
+      "prompt": "무기한의: Workers on an i_________-term contract do not need to re-sign every year.",
+      "answer": "indefinite"
+    },
+    {
+      "prompt": "견적서를 받은 지 2주가 지났는데 아직 결정을 못 했습니다. (주어·동사 넣기)",
+      "answer": "It has been two weeks since we received the quotation, and we still have not decided."
+    },
+    {
+      "prompt": "금요일까지 다른 말씀이 없으면 이 일정으로 진행하겠습니다. (주어·동사 넣기)",
+      "answer": "Unless I hear otherwise by Friday, I will go ahead with this schedule."
+    }
+  ],
+  "words": [
+    {
+      "word": "finalize",
+      "pos": "v.",
+      "meaning": "최종 확정하다, 마무리하다 — finish / decide 대신",
+      "example": "We need to finalize the transfer pricing file and sign it today.",
+      "collocations": "finalize the report / finalize the details"
+    },
+    {
+      "word": "comparable",
+      "pos": "adj.",
+      "meaning": "(조건이 같아) 비교할 수 있는 — similar / same 대신",
+      "example": "Please get comparable quotes for the same hard disk size.",
+      "collocations": "comparable quotes / comparable to ~"
+    },
+    {
+      "word": "expedite",
+      "pos": "v.",
+      "meaning": "(처리를) 서둘러 앞당기다 — do it fast 대신",
+      "example": "Could you expedite the PR approval? The purchase has been waiting for weeks.",
+      "collocations": "expedite the approval / expedite the shipment"
+    },
+    {
+      "word": "indefinite",
+      "pos": "adj.",
+      "meaning": "기한이 없는, 무기한의 — no end date 대신",
+      "example": "We will change her contract to an indefinite-term contract before it ends.",
+      "collocations": "indefinite-term contract / indefinitely (부사)"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "We'd like to go ahead with ~, provided that ~.",
+      "meaning": "~라는 조건으로 ~을 진행하겠습니다 (OK, but ~ 대신, 조건을 붙여 승인할 때)",
+      "skeleton": "We'd like to go ahead with + [명사], provided that + [주어][동사]",
+      "email": "We'd like to go ahead with the new supplier, provided that the price includes the yearly check.",
+      "spoken": "OK, let's go with them, as long as the yearly check is included."
+    },
+    {
+      "pattern": "It has been ~ since ~, and ~ still ~.",
+      "meaning": "~한 지 ~가 지났는데 아직 ~입니다 (It is late 대신, 재촉할 때 사실로 말하기)",
+      "skeleton": "It has been + [기간] + since + [주어][동사], and + [주어] + still + [동사]",
+      "email": "It has been three weeks since we submitted the PR, and it still has not been approved.",
+      "spoken": "It's been three weeks, and it's still not approved."
+    },
+    {
+      "pattern": "Unless I hear otherwise by ~, I will ~.",
+      "meaning": "~까지 다른 말씀이 없으면 ~하겠습니다 (If no answer, I will ~ 대신, 기한 정하고 진행 알릴 때)",
+      "skeleton": "Unless I hear otherwise + by [시각], + I will + [동사]",
+      "email": "Unless I hear otherwise by 3 PM, I will sign the revised report.",
+      "spoken": "If I don't hear back by 3, I'll go ahead and sign."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "메일 조회 불가(Graph 502)로 이번 주 업무 주제에서 직접 고름: 이전가격 보고서 수정본 서명, PR 승인 지연, 전기점검·CCTV 견적 비교, 미싱사 무기한 계약 전환."
+}

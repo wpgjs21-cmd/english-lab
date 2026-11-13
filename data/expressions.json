@@ -1328,5 +1328,65 @@
     "learned": "2026-11-12",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "comparable",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(조건이 같아) 비교할 수 있는",
+    "topic": "구매·품의",
+    "learned": "2026-11-13",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "expedite",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(처리를) 서둘러 앞당기다",
+    "topic": "구매·품의",
+    "learned": "2026-11-13",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "indefinite",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "기한이 없는, 무기한의",
+    "topic": "인사·노무",
+    "learned": "2026-11-13",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "We'd like to go ahead with ~, provided that ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~라는 조건으로 ~을 진행하겠습니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-13",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "It has been ~ since ~, and ~ still ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~한 지 ~가 지났는데 아직 ~입니다",
+    "topic": "회의·대화",
+    "learned": "2026-11-13",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Unless I hear otherwise by ~, I will ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~까지 다른 말씀이 없으면 ~하겠습니다",
+    "topic": "본사 보고",
+    "learned": "2026-11-13",
+    "wrong": false,
+    "first_used": null
   }
 ]
