@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-16",
+  "weekday": "월",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/12 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "호환되는, 서로 맞는: ____ with DDR4",
+        "answer": "compatible",
+        "flag": ""
+      },
+      {
+        "prompt": "(의견·수정을) 반영하다 — add / apply 대신",
+        "answer": "incorporate",
+        "flag": ""
+      },
+      {
+        "prompt": "(다른 일·자리로) 재배치하다: ____ A to B",
+        "answer": "reassign",
+        "flag": ""
+      },
+      {
+        "prompt": "(숫자를) 실제보다 크게 잡다 — 반대말 understate",
+        "answer": "overstate",
+        "flag": ""
+      },
+      {
+        "prompt": "~가 지금 어디까지 됐는지 알려 주세요 (패턴)",
+        "answer": "Could you let me know where ~ stands?",
+        "flag": ""
+      },
+      {
+        "prompt": "반드시 ~인지 확인해 주세요. 그렇지 않으면 ~합니다 (패턴)",
+        "answer": "Please make sure (that) ~. Otherwise, ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~하면 어떻게 하는 게 좋을까요? (패턴)",
+        "answer": "What would you suggest (that) we do if ~?",
+        "flag": ""
+      },
+      {
+        "prompt": "(필요성·금액의) 타당한 이유를 대다 — explain why 대신",
+        "answer": "justify",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(문제·질문을) 다루다, 처리하다 — deal with 대신",
+        "answer": "address",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "뒤로 미루다: Can we d____ the payment until the repair is checked?",
+      "answer": "defer"
+    },
+    {
+      "prompt": "단계: The roof repair will be done in two p_____.",
+      "answer": "phases"
+    },
+    {
+      "prompt": "인정하다·확인해 주다: Please a__________ receipt of the signed contract.",
+      "answer": "acknowledge"
+    },
+    {
+      "prompt": "추가의·보완하는: Please attach s____________ documents to the visa application.",
+      "answer": "supplementary"
+    },
+    {
+      "prompt": "이번 달 주문이 적으므로 토요일 잔업은 하지 않겠습니다. (주어·동사 넣기)",
+      "answer": "Given that orders are low this month, we will not work overtime on Saturday."
+    },
+    {
+      "prompt": "인보이스를 받을 때까지 가격이 오른 줄 몰랐습니다. (주어·동사 넣기)",
+      "answer": "We were not aware that the price had gone up until we received the invoice."
+    }
+  ],
+  "words": [
+    {
+      "word": "defer",
+      "pos": "v.",
+      "meaning": "(결정·구매를) 뒤로 미루다 — do later / not now 대신",
+      "example": "SSD prices are high now, so we will defer the replacement until the drive fails.",
+      "collocations": "defer the purchase / defer a decision"
+    },
+    {
+      "word": "phase",
+      "pos": "n.",
+      "meaning": "(작업·교체의) 단계 — step / round 대신",
+      "example": "We will replace the CCTV hard disks in three phases to spread the cost.",
+      "collocations": "in phases / phase 1"
+    },
+    {
+      "word": "acknowledge",
+      "pos": "v.",
+      "meaning": "(잘못·사실을) 인정하다, (받았음을) 확인해 주다 — accept / say OK 대신",
+      "example": "The supplier acknowledged the mistake on the invoice and will issue it again.",
+      "collocations": "acknowledge receipt / acknowledge a mistake"
+    },
+    {
+      "word": "supplementary",
+      "pos": "adj.",
+      "meaning": "추가의, 보완하는 — additional / extra 대신",
+      "example": "The auditor asked us to send supplementary documents by Friday.",
+      "collocations": "supplementary documents / supplementary declaration"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Given that ~, we will ~.",
+      "meaning": "~이므로(~을 감안해) ~하겠습니다 (~ is high, so we ~ 대신, 결정의 이유를 먼저 밝힐 때)",
+      "skeleton": "Given that + [주어][동사], + we will + [동사]",
+      "email": "Given that the total cost is high, we will replace only five drives this year.",
+      "spoken": "Since the total is high, we'll only replace five this year."
+    },
+    {
+      "pattern": "We were not aware that ~ until ~.",
+      "meaning": "~할 때까지 ~인 줄 몰랐습니다 (We didn't know 대신, 늦게 알게 된 경위를 설명할 때)",
+      "skeleton": "We were not aware that + [주어][동사] + until + [주어][동사]",
+      "email": "We were not aware that the forwarder had changed the price until we received the invoice.",
+      "spoken": "We didn't know about the new price until the invoice came."
+    },
+    {
+      "pattern": "I would like to bring ~ to your attention.",
+      "meaning": "~을 알려(보고) 드립니다 (I want to tell you ~ 대신, 윗사람·본사에 문제를 처음 꺼낼 때)",
+      "skeleton": "I would like to bring + [명사] + to your attention",
+      "email": "I would like to bring a delay in the roof repair to your attention.",
+      "spoken": "I just want to flag one thing: the roof repair is delayed."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/14 보낸 메일(전산 부품 교체 보류·단계 교체, 세무 행정 건 회신)과 회계팀 보고 메일에서 고름."
+}

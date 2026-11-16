@@ -1388,5 +1388,75 @@
     "learned": "2026-11-13",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "defer",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(결정·구매를) 뒤로 미루다",
+    "topic": "구매·품의",
+    "learned": "2026-11-16",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "phase",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "(작업·교체의) 단계",
+    "topic": "총무·시설",
+    "learned": "2026-11-16",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "acknowledge",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(잘못·사실을) 인정하다, (받았음을) 확인해 주다",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-16",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "supplementary",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "추가의, 보완하는",
+    "topic": "수출입·통관",
+    "learned": "2026-11-16",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Given that ~, we will ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~이므로(~을 감안해) ~하겠습니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-16",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "We were not aware that ~ until ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~할 때까지 ~인 줄 몰랐습니다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-16",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I would like to bring ~ to your attention.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~을 알려(보고) 드립니다",
+    "topic": "본사 보고",
+    "learned": "2026-11-16",
+    "wrong": false,
+    "first_used": null
   }
 ]
