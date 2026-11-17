@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-17",
+  "weekday": "화",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/16·11/13·11/09 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "(결정·구매를) 뒤로 미루다 — do later 대신",
+        "answer": "defer",
+        "flag": ""
+      },
+      {
+        "prompt": "(작업·교체의) 단계: in three ____s",
+        "answer": "phase",
+        "flag": ""
+      },
+      {
+        "prompt": "(잘못을) 인정하다, (받았음을) 확인해 주다: ____ receipt",
+        "answer": "acknowledge",
+        "flag": ""
+      },
+      {
+        "prompt": "추가의, 보완하는: ____ documents",
+        "answer": "supplementary",
+        "flag": ""
+      },
+      {
+        "prompt": "~이므로(~을 감안해) ~하겠습니다 (패턴)",
+        "answer": "Given that ~, we will ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~할 때까지 ~인 줄 몰랐습니다 (패턴)",
+        "answer": "We were not aware that ~ until ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~을 알려(보고) 드립니다 — 문제를 처음 꺼낼 때 (패턴)",
+        "answer": "I would like to bring ~ to your attention.",
+        "flag": ""
+      },
+      {
+        "prompt": "최종 확정하다, 마무리하다 — finish / fix 대신",
+        "answer": "finalize",
+        "flag": ""
+      },
+      {
+        "prompt": "(조건이 같아) 비교할 수 있는: ____ quotes",
+        "answer": "comparable",
+        "flag": ""
+      },
+      {
+        "prompt": "(처리를) 서둘러 앞당기다 — make faster 대신",
+        "answer": "expedite",
+        "flag": ""
+      },
+      {
+        "prompt": "기한이 없는, 무기한의: an ____-term contract",
+        "answer": "indefinite",
+        "flag": ""
+      },
+      {
+        "prompt": "~라는 조건으로 ~을 진행하겠습니다 (패턴)",
+        "answer": "We'd like to go ahead with ~, provided that ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~한 지 ~가 지났는데 아직 ~입니다 (패턴)",
+        "answer": "It has been ~ since ~, and ~ still ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~까지 다른 말씀이 없으면 ~하겠습니다 (패턴)",
+        "answer": "Unless I hear otherwise by ~, I will ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "책임지고 살피다, 관리·감독하다 — take care of 대신",
+        "answer": "oversee",
+        "flag": ""
+      },
+      {
+        "prompt": "대략의 숫자, 추정치: give me an ____",
+        "answer": "estimate",
+        "flag": ""
+      },
+      {
+        "prompt": "~가 정해질 때까지: ____ our decision",
+        "answer": "pending",
+        "flag": ""
+      },
+      {
+        "prompt": "(상태·위험을) 평가하다 — check 대신",
+        "answer": "assess",
+        "flag": ""
+      },
+      {
+        "prompt": "앞으로 ~가 ~을 맡고, 당신은 계속 ~해 주세요 (패턴)",
+        "answer": "~ will take over ~, while you continue to ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "다시 말씀드리면, ~만이 아니라 ~을 묻는 겁니다 (패턴)",
+        "answer": "To clarify, I'm asking about ~, not just ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "참고로, 저희는 ~을 이렇게 했습니다 (패턴)",
+        "answer": "For your reference, here is how we ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "수령, 받음: confirm ____ of ~",
+        "answer": "receipt",
+        "flag": "오답"
+      },
+      {
+        "prompt": "전담의: a ____ team",
+        "answer": "dedicated",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "돌려주다·정산해 주다: Please keep the receipt so that we can r________ your taxi fare.",
+      "answer": "reimburse"
+    },
+    {
+      "prompt": "미리·선지급으로: The supplier asks us to pay 30% u_______.",
+      "answer": "upfront"
+    },
+    {
+      "prompt": "해당되는: Please write \"N/A\" if the item is not a_________.",
+      "answer": "applicable"
+    },
+    {
+      "prompt": "대략의: The a__________ cost is 5 million VND, but please get a quotation.",
+      "answer": "approximate"
+    },
+    {
+      "prompt": "노동법에 따라 회사는 매년 건강검진을 제공해야 합니다. (주어·동사 넣기)",
+      "answer": "Under the labor law, the company is required to provide a health check every year."
+    },
+    {
+      "prompt": "지난달 출근 기록이 어디에 보관돼 있는지 알려 주시겠어요? (주어·동사 넣기)",
+      "answer": "Could you point me to where last month's attendance records are kept?"
+    }
+  ],
+  "words": [
+    {
+      "word": "reimburse",
+      "pos": "v.",
+      "meaning": "(쓴 돈을) 돌려주다, 정산해 주다 — pay back 대신",
+      "example": "Workers pay first, and the company reimburses them later.",
+      "collocations": "reimburse the cost / be reimbursed for ~"
+    },
+    {
+      "word": "upfront",
+      "pos": "adv.",
+      "meaning": "미리, 먼저(선지급으로) — pay first 대신",
+      "example": "By law, the company should pay the medical costs upfront.",
+      "collocations": "pay upfront / upfront payment"
+    },
+    {
+      "word": "applicable",
+      "pos": "adj.",
+      "meaning": "해당되는, 적용되는 — no case / not related 대신",
+      "example": "The storage charge is not applicable to our factory this year.",
+      "collocations": "not applicable (N/A) / applicable to ~"
+    },
+    {
+      "word": "approximate",
+      "pos": "adj.",
+      "meaning": "대략의, 근사치의 — about / not exact 대신",
+      "example": "The roll count can be approximate, but the yards must be correct.",
+      "collocations": "an approximate number / approximate cost"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Under ~, the company is required to ~.",
+      "meaning": "~(법·규정)에 따라 회사는 ~해야 합니다 (The law says we must ~ 대신, 규정 근거를 먼저 댈 때)",
+      "skeleton": "Under + [법·규정], + [주어] + is required to + [동사]",
+      "email": "Under the safety law, the company is required to pay medical costs in advance.",
+      "spoken": "The law says we have to pay first."
+    },
+    {
+      "pattern": "To meet ~'s deadline of ~, please ~ by ~.",
+      "meaning": "~의 ~ 기한을 맞추려면 ~까지 ~해 주세요 (We need to reply by ~, so ~ 대신, 기한 이유와 요청을 한 문장에)",
+      "skeleton": "To meet + [누구]'s deadline of + [날짜], + please + [동사] + by + [시각]",
+      "email": "To meet HQ's deadline of Nov 18, please send me the hospital list by 3 PM today.",
+      "spoken": "HQ needs it by the 18th, so can you send it by 3 today?"
+    },
+    {
+      "pattern": "Could you point me to where ~ is kept?",
+      "meaning": "~이 어디에 보관돼 있는지 알려 주시겠어요? (Where do you keep ~? 대신, 자료 위치를 공손하게 물을 때)",
+      "skeleton": "Could you point me to where + [주어] + is/are kept?",
+      "email": "Could you point me to where the daily absence records are kept?",
+      "spoken": "Where do you keep the absence records?"
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/16 보낸 메일(산재 치료비 지급 방식, 퇴사 기록 확인, 보관료 해당 없음 회신, 원단 분할)에서 고름."
+}

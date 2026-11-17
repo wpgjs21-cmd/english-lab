@@ -1458,5 +1458,75 @@
     "learned": "2026-11-16",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "reimburse",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(쓴 돈을) 돌려주다, 정산해 주다",
+    "topic": "인사·노무",
+    "learned": "2026-11-17",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "upfront",
+    "kind": "단어",
+    "pos": "adv.",
+    "meaning": "미리, 먼저(선지급으로)",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-17",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "applicable",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "해당되는, 적용되는",
+    "topic": "본사 보고",
+    "learned": "2026-11-17",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "approximate",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "대략의, 근사치의",
+    "topic": "수출입·통관",
+    "learned": "2026-11-17",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Under ~, the company is required to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~(법·규정)에 따라 회사는 ~해야 합니다",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-17",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "To meet ~'s deadline of ~, please ~ by ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~의 ~ 기한을 맞추려면 ~까지 ~해 주세요",
+    "topic": "본사 보고",
+    "learned": "2026-11-17",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Could you point me to where ~ is kept?",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~이 어디에 보관돼 있는지 알려 주시겠어요?",
+    "topic": "인사·노무",
+    "learned": "2026-11-17",
+    "wrong": false,
+    "first_used": null
   }
 ]
