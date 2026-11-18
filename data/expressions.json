@@ -1528,5 +1528,75 @@
     "learned": "2026-11-17",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "turnover",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "(직원) 이직, 이직률",
+    "topic": "인사·노무",
+    "learned": "2026-11-18",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "onboarding",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "신입 직원 적응 교육",
+    "topic": "인사·노무",
+    "learned": "2026-11-18",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "underused",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "잘 안 쓰이는, 활용이 적은",
+    "topic": "구매·품의",
+    "learned": "2026-11-18",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "cross-check",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(다른 자료와) 대조해 확인하다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-18",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "My understanding is that ~. Please correct me if I'm wrong.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "제가 알기로는 ~입니다. 틀리면 알려 주세요",
+    "topic": "수출입·통관",
+    "learned": "2026-11-18",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Depending on ~, we will decide whether to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~에 따라 ~할지 정하겠습니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-18",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "The main reason (why) ~ is that ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~한 주된 이유는 ~이기 때문입니다",
+    "topic": "인사·노무",
+    "learned": "2026-11-18",
+    "wrong": false,
+    "first_used": null
   }
 ]
