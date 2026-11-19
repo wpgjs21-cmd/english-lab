@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-19",
+  "weekday": "목",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/18·11/16·11/11 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "(직원) 이직, 이직률: high staff ____",
+        "answer": "turnover",
+        "flag": ""
+      },
+      {
+        "prompt": "신입 직원 적응 교육 — training for new staff 대신",
+        "answer": "onboarding",
+        "flag": ""
+      },
+      {
+        "prompt": "잘 안 쓰이는, 활용이 적은 — used less 대신",
+        "answer": "underused",
+        "flag": ""
+      },
+      {
+        "prompt": "(다른 자료와) 대조해 확인하다: ____ A against B",
+        "answer": "cross-check",
+        "flag": ""
+      },
+      {
+        "prompt": "제가 알기로는 ~입니다. 틀리면 알려 주세요 (패턴)",
+        "answer": "My understanding is that ~. Please correct me if I'm wrong.",
+        "flag": ""
+      },
+      {
+        "prompt": "~에 따라 ~할지 정하겠습니다 (패턴)",
+        "answer": "Depending on ~, we will decide whether to ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~한 주된 이유는 ~이기 때문입니다 (패턴)",
+        "answer": "The main reason (why) ~ is that ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(결정·구매를) 뒤로 미루다 — put off 대신",
+        "answer": "defer",
+        "flag": ""
+      },
+      {
+        "prompt": "(작업·교체의) 단계: in three ____s",
+        "answer": "phase",
+        "flag": ""
+      },
+      {
+        "prompt": "(잘못을) 인정하다, (받았음을) 확인해 주다",
+        "answer": "acknowledge",
+        "flag": ""
+      },
+      {
+        "prompt": "추가의, 보완하는: ____ documents",
+        "answer": "supplementary",
+        "flag": ""
+      },
+      {
+        "prompt": "~이므로(~을 감안해) ~하겠습니다 (패턴)",
+        "answer": "Given that ~, we will ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~할 때까지 ~인 줄 몰랐습니다 (패턴)",
+        "answer": "We were not aware that ~ until ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~을 알려(보고) 드립니다 (패턴)",
+        "answer": "I would like to bring ~ to your attention.",
+        "flag": ""
+      },
+      {
+        "prompt": "현재 보유한: stock ____ ____",
+        "answer": "on hand",
+        "flag": ""
+      },
+      {
+        "prompt": "(물품을) 내주다, 지급하다 — give out 대신",
+        "answer": "issue",
+        "flag": ""
+      },
+      {
+        "prompt": "(일한 기간만큼) 일할 계산하다",
+        "answer": "prorate",
+        "flag": ""
+      },
+      {
+        "prompt": "(원래대로) 되돌아가다: ____ to the old price",
+        "answer": "revert",
+        "flag": ""
+      },
+      {
+        "prompt": "~에게 ~인지 확인해 주세요 (패턴)",
+        "answer": "Please confirm with ~ whether ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~와 같은 방식으로 ~해 주세요 (패턴)",
+        "answer": "Please ~ in the same way as ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~해 주세요, 그래야 ~할 수 있습니다 (패턴)",
+        "answer": "Please ~, so that we can ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(결과·수치를) 기록하다 — write down 대신",
+        "answer": "log",
+        "flag": "오답"
+      },
+      {
+        "prompt": "명확히 하다, 분명히 설명하다 — explain clearly 대신",
+        "answer": "clarify",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "수치로 나타내다: Please q_______ the overtime hours by line in your weekly report.",
+      "answer": "quantify"
+    },
+    {
+      "prompt": "항목별로 나누어 적다: Please i_______ the repair costs: parts, labor and travel.",
+      "answer": "itemize"
+    },
+    {
+      "prompt": "용량이 작은: The water tank is u_________ for the number of workers we have now.",
+      "answer": "undersized"
+    },
+    {
+      "prompt": "하나로 모으다: Please c__________ the four sample invoices into one file before you send it to HQ.",
+      "answer": "consolidate"
+    },
+    {
+      "prompt": "앞으로 신입 직원은 첫 주에 매일 업무보고를 보내는 것을 규칙으로 합시다. (주어·동사 넣기)",
+      "answer": "From now on, let's make it a rule that new staff send a daily report in their first week."
+    },
+    {
+      "prompt": "모든 PR은 견적 2개가 필요합니다. 유일한 예외는 긴급 수리이며, 견적 1개로 진행할 수 있습니다. (주어·동사 넣기)",
+      "answer": "All PRs need two quotations. The only exception is urgent repairs, which can go ahead with one quotation."
+    }
+  ],
+  "words": [
+    {
+      "word": "quantify",
+      "pos": "v.",
+      "meaning": "수치로 나타내다 — add numbers 대신",
+      "example": "Please quantify each task in your daily report: how many rolls and yards you checked.",
+      "collocations": "quantify the work / quantify the impact"
+    },
+    {
+      "word": "itemize",
+      "pos": "v.",
+      "meaning": "항목별로 나누어 적다 — show separately 대신",
+      "example": "Please ask the suppliers to itemize the pump and installation costs.",
+      "collocations": "an itemized quotation / itemize the costs"
+    },
+    {
+      "word": "undersized",
+      "pos": "adj.",
+      "meaning": "(용량·크기가) 작은, 모자란 — too small 대신",
+      "example": "The inspector said our boiler feed pump is undersized.",
+      "collocations": "undersized for ~ / an undersized pump"
+    },
+    {
+      "word": "consolidate",
+      "pos": "v.",
+      "meaning": "(여러 건을) 하나로 모으다 — collect together 대신",
+      "example": "The clinic will consolidate the month's medical costs and bill us once.",
+      "collocations": "consolidate the invoices / a consolidated bill"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "From now on, let's make it a rule that ~.",
+      "meaning": "앞으로 ~하는 것을 규칙으로 합시다 (From now on, please ~ 대신, 팀 전체 기준을 정할 때)",
+      "skeleton": "let's make it a rule that + [주어] + [동사]",
+      "email": "From now on, let's make it a rule that the two loading documents go to the Shipping team within 2 days.",
+      "spoken": "Let's make that our rule."
+    },
+    {
+      "pattern": "Apart from ~, is there anything else (that) ~?",
+      "meaning": "~ 외에 ~한 것이 더 있나요? (Is there more? 대신, 빠진 것이 없는지 확인할 때)",
+      "skeleton": "Apart from + [명사], is there anything else that + [동사]?",
+      "email": "Apart from this list, is there anything else that was sent under our tax code?",
+      "spoken": "Anything else besides this list?"
+    },
+    {
+      "pattern": "The only exception is ~, which ~.",
+      "meaning": "유일한 예외는 ~이며, ~합니다 (But ~ is different 대신, 규칙의 예외를 짚을 때)",
+      "skeleton": "The only exception is + [명사], which + [동사]",
+      "email": "The only exception is accidents after 6 PM, which must go to another hospital.",
+      "spoken": "Except after 6 PM. Then we go to the hospital."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/18 보낸 메일(신입 일일보고, 펌프 교체 견적 요청, 보험 갱신, 치료비 정산 방식, 신고 누락 확인, 선적 서류 규칙)에서 고름."
+}
