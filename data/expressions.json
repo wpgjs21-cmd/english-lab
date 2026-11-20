@@ -1668,5 +1668,75 @@
     "learned": "2026-11-19",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "allocate",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "배분하다, 나눠 배정하다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-20",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "rectify",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(잘못된 것을) 바로잡다",
+    "topic": "총무·시설",
+    "learned": "2026-11-20",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "overlap",
+    "kind": "단어",
+    "pos": "v./n.",
+    "meaning": "(범위·일정이) 겹치다, 겹침",
+    "topic": "총무·시설",
+    "learned": "2026-11-20",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "rationale",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "(결정의) 근거, 이유",
+    "topic": "본사 보고",
+    "learned": "2026-11-20",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'm not in a position to ~ until ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~ 전까지는 ~할 수 없습니다(아직 ~할 단계가 아닙니다)",
+    "topic": "본사 보고",
+    "learned": "2026-11-20",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Since ~ was already ~, there is no need to ~ again.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "이미 ~했으므로 다시 ~할 필요는 없습니다",
+    "topic": "총무·시설",
+    "learned": "2026-11-20",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "~ should add up to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "(합계가) ~와 맞아야 합니다",
+    "topic": "본사 보고",
+    "learned": "2026-11-20",
+    "wrong": false,
+    "first_used": null
   }
 ]

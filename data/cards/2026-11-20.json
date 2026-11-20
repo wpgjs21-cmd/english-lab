@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-20",
+  "weekday": "금",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/19·11/17·11/12 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "수치로 나타내다 — add numbers 대신",
+        "answer": "quantify",
+        "flag": ""
+      },
+      {
+        "prompt": "항목별로 나누어 적다: an ____ed quotation",
+        "answer": "itemize",
+        "flag": ""
+      },
+      {
+        "prompt": "(용량·크기가) 작은, 모자란 — too small 대신",
+        "answer": "undersized",
+        "flag": ""
+      },
+      {
+        "prompt": "(여러 건을) 하나로 모으다: ____ the invoices",
+        "answer": "consolidate",
+        "flag": ""
+      },
+      {
+        "prompt": "앞으로 ~하는 것을 규칙으로 합시다 (패턴)",
+        "answer": "From now on, let's make it a rule that ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~ 외에 ~한 것이 더 있나요? (패턴)",
+        "answer": "Apart from ~, is there anything else (that) ~?",
+        "flag": ""
+      },
+      {
+        "prompt": "유일한 예외는 ~이며, ~합니다 (패턴)",
+        "answer": "The only exception is ~, which ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(쓴 돈을) 돌려주다, 정산해 주다 — pay back 대신",
+        "answer": "reimburse",
+        "flag": ""
+      },
+      {
+        "prompt": "미리, 먼저(선지급으로): pay ____",
+        "answer": "upfront",
+        "flag": ""
+      },
+      {
+        "prompt": "해당되는, 적용되는: not ____ to ~",
+        "answer": "applicable",
+        "flag": ""
+      },
+      {
+        "prompt": "대략의, 근사치의 — about 대신",
+        "answer": "approximate",
+        "flag": ""
+      },
+      {
+        "prompt": "~(법·규정)에 따라 회사는 ~해야 합니다 (패턴)",
+        "answer": "Under ~, the company is required to ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~의 ~ 기한을 맞추려면 ~까지 ~해 주세요 (패턴)",
+        "answer": "To meet ~'s deadline of ~, please ~ by ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~이 어디에 보관돼 있는지 알려 주시겠어요? (패턴)",
+        "answer": "Could you point me to where ~ is kept?",
+        "flag": ""
+      },
+      {
+        "prompt": "호환되는, 서로 맞는: ____ with DDR4",
+        "answer": "compatible",
+        "flag": ""
+      },
+      {
+        "prompt": "(의견·수정을) 반영하다 — add / apply 대신",
+        "answer": "incorporate",
+        "flag": ""
+      },
+      {
+        "prompt": "(다른 일·자리로) 재배치하다: ____ A to B",
+        "answer": "reassign",
+        "flag": ""
+      },
+      {
+        "prompt": "(숫자를) 실제보다 크게 잡다 — 반대말 understate",
+        "answer": "overstate",
+        "flag": ""
+      },
+      {
+        "prompt": "~가 지금 어디까지 됐는지 알려 주세요 (패턴)",
+        "answer": "Could you let me know where ~ stands?",
+        "flag": ""
+      },
+      {
+        "prompt": "반드시 ~인지 확인해 주세요. 그렇지 않으면 ~합니다 (패턴)",
+        "answer": "Please make sure (that) ~. Otherwise, ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~하면 어떻게 하는 게 좋을까요? (패턴)",
+        "answer": "What would you suggest (that) we do if ~?",
+        "flag": ""
+      },
+      {
+        "prompt": "실행 가능한 — possible / OK 대신",
+        "answer": "feasible",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(규정·기준을) 준수하다 — follow 대신",
+        "answer": "comply with",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "배분하다: Please a_______ the overtime cost to each line by working hours.",
+      "answer": "allocate"
+    },
+    {
+      "prompt": "바로잡다: Please ask the supplier to r______ the wrong date on the invoice.",
+      "answer": "rectify"
+    },
+    {
+      "prompt": "겹치다: The audit date o______s with the buyer visit, so let's move one of them.",
+      "answer": "overlap"
+    },
+    {
+      "prompt": "근거, 이유: Please add a short r________ for each item you want to buy.",
+      "answer": "rationale"
+    },
+    {
+      "prompt": "증빙 서류를 받기 전에는 대금을 지급할 수 없습니다. (주어·동사 넣기)",
+      "answer": "I'm not in a position to pay the invoice until we receive the supporting documents."
+    },
+    {
+      "prompt": "소방 점검은 지난달에 이미 했으므로 이번 달에 다시 할 필요가 없습니다. (주어·동사 넣기)",
+      "answer": "Since the fire inspection was already done last month, there is no need to do it again this month."
+    }
+  ],
+  "words": [
+    {
+      "word": "allocate",
+      "pos": "v.",
+      "meaning": "배분하다, 나눠 배정하다 — split / divide 대신",
+      "example": "I allocated the rolls to each style based on the sales plan.",
+      "collocations": "allocate A to B / allocate the budget"
+    },
+    {
+      "word": "rectify",
+      "pos": "v.",
+      "meaning": "(잘못된 것을) 바로잡다 — fix the mistake 대신",
+      "example": "The contractor must rectify the wrong lug replacement before we pay.",
+      "collocations": "rectify the problem / rectify the error"
+    },
+    {
+      "word": "overlap",
+      "pos": "v./n.",
+      "meaning": "(범위·일정이) 겹치다, 겹침 — same part / same time 대신",
+      "example": "These two tests overlap with the June inspection, so we can skip them.",
+      "collocations": "overlap with ~ / some overlap between A and B"
+    },
+    {
+      "word": "rationale",
+      "pos": "n.",
+      "meaning": "(결정의) 근거, 이유 — reason 대신",
+      "example": "Please explain the rationale for the CM change for each style.",
+      "collocations": "the rationale for ~ / explain the rationale"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "I'm not in a position to ~ until ~.",
+      "meaning": "~ 전까지는 ~할 수 없습니다(아직 ~할 단계가 아닙니다) (I will not ~ yet 대신, 승인·결정을 정중히 미룰 때)",
+      "skeleton": "I'm not in a position to + [동사] + until + [주어][동사]",
+      "email": "I'm not in a position to approve the plan until you explain each style.",
+      "spoken": "I can't approve it yet. I need the reasons first."
+    },
+    {
+      "pattern": "Since ~ was already ~, there is no need to ~ again.",
+      "meaning": "이미 ~했으므로 다시 ~할 필요는 없습니다 (We don't need ~ 대신, 이유를 붙여 범위를 줄일 때)",
+      "skeleton": "Since + [주어][동사], there is no need to + [동사]",
+      "email": "Since grounding resistance was already measured in September, there is no need to test it again.",
+      "spoken": "We did that in September, so no need to do it again."
+    },
+    {
+      "pattern": "~ should add up to ~.",
+      "meaning": "(합계가) ~와 맞아야 합니다 (The total must be the same 대신, 숫자 합계를 맞추라고 할 때)",
+      "skeleton": "[주어] + should add up to + [명사]",
+      "email": "The amounts in the note column should add up to the total difference.",
+      "spoken": "These should add up to the total."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/19 보낸 메일(원단 롤 배분, 전기점검 재시공·점검 항목 정리, 손익 계획 승인 보류, 차이 금액 합계)에서 고름."
+}
