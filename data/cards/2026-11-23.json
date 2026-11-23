@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-23",
+  "weekday": "월",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/19 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "수치로 나타내다 — add numbers 대신",
+        "answer": "quantify",
+        "flag": ""
+      },
+      {
+        "prompt": "항목별로 나누어 적다: an ____ed quotation",
+        "answer": "itemize",
+        "flag": ""
+      },
+      {
+        "prompt": "(용량·크기가) 작은, 모자란 — too small 대신",
+        "answer": "undersized",
+        "flag": ""
+      },
+      {
+        "prompt": "(여러 건을) 하나로 모으다: ____ the invoices",
+        "answer": "consolidate",
+        "flag": ""
+      },
+      {
+        "prompt": "앞으로 ~하는 것을 규칙으로 합시다 (패턴)",
+        "answer": "From now on, let's make it a rule that ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~ 외에 ~한 것이 더 있나요? (패턴)",
+        "answer": "Apart from ~, is there anything else (that) ~?",
+        "flag": ""
+      },
+      {
+        "prompt": "유일한 예외는 ~이며, ~합니다 (패턴)",
+        "answer": "The only exception is ~, which ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "(필요성·금액의) 타당한 이유를 대다 — give a reason 대신",
+        "answer": "justify",
+        "flag": "오답"
+      },
+      {
+        "prompt": "(문제·질문을) 다루다, 처리하다 — handle / answer 대신",
+        "answer": "address",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "간소화하다: Please s_________ the approval process. Three signatures are too many.",
+      "answer": "streamline"
+    },
+    {
+      "prompt": "기준: Suppliers must meet three c_______: price, quality and delivery time.",
+      "answer": "criteria"
+    },
+    {
+      "prompt": "다시 발생하다: The same leak may r____ in the rainy season if we repair only one spot.",
+      "answer": "recur"
+    },
+    {
+      "prompt": "배상 책임이 있는: Who is l_____ for the cost if the machine breaks during the test?",
+      "answer": "liable"
+    },
+    {
+      "prompt": "품의를 올리기 전에 견적 비교표에 대한 의견을 듣고 싶습니다. (주어·동사 넣기)",
+      "answer": "I'd like your input on the quotation comparison before I submit the PR."
+    },
+    {
+      "prompt": "11월 20일에 요청한 보험증권을 아직 받지 못했습니다. (주어·동사 넣기)",
+      "answer": "I have yet to receive the insurance certificate, which I asked for on Nov 20."
+    }
+  ],
+  "words": [
+    {
+      "word": "streamline",
+      "pos": "v.",
+      "meaning": "(절차·양식을) 간소화하다 — make it simple / easier 대신",
+      "example": "I streamlined the ledger so that it is easier to fill in.",
+      "collocations": "streamline the process / streamline the form"
+    },
+    {
+      "word": "criteria",
+      "pos": "n.",
+      "meaning": "(평가·선정) 기준 — rule / standard 대신 (복수형, 단수는 criterion)",
+      "example": "The old KPI form had no clear criteria for setting targets.",
+      "collocations": "clear criteria / meet the criteria"
+    },
+    {
+      "word": "recur",
+      "pos": "v.",
+      "meaning": "(문제가) 다시 발생하다 — happen again 대신",
+      "example": "Please tell me how we will make sure this does not recur.",
+      "collocations": "prevent it from recurring / a recurring problem"
+    },
+    {
+      "word": "liable",
+      "pos": "adj.",
+      "meaning": "(법적으로) 배상 책임이 있는 — responsible / must pay 대신",
+      "example": "The trucking company is liable for any damage to the cargo during transport.",
+      "collocations": "be liable for ~ / hold A liable"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "I'd like your input on ~ before I ~.",
+      "meaning": "~하기 전에 ~에 대한 의견을 듣고 싶습니다 (Could you review it first? 대신, 내보내기 전에 의견을 구할 때)",
+      "skeleton": "I'd like your input on + [명사] + before + [주어][동사]",
+      "email": "I'd like your input on the new KPI form before I send it to the team leaders.",
+      "spoken": "Can you take a look before I send it out?"
+    },
+    {
+      "pattern": "To prevent ~ from ~ing again, please ~.",
+      "meaning": "~가 다시 ~하지 않도록 ~해 주세요 (so this does not happen again 대신, 재발 방지 조치를 지시할 때)",
+      "skeleton": "To prevent + [명사] + from + [동사ing] + again, please + [동사]",
+      "email": "To prevent the certificates from expiring again, please add the expiry dates to the training plan.",
+      "spoken": "So it doesn't happen again, put the dates in the plan."
+    },
+    {
+      "pattern": "I have yet to receive ~, which I asked for on ~.",
+      "meaning": "~에 요청한 ~을 아직 받지 못했습니다 (You have not sent ~ 대신, 상대를 탓하지 않고 재촉할 때)",
+      "skeleton": "I have yet to receive + [명사], which + [주어][동사]",
+      "email": "I have yet to receive the trucking quotation sheets, which I asked for on Nov 19.",
+      "spoken": "I still haven't got the quotation sheets."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/21 보낸 메일(평가 양식 개편 검토 요청, 교육 인증 만료 질의, 운송 계약 책임 조항, 원장 양식 간소화, 기한 지난 자료 재촉)에서 고름."
+}

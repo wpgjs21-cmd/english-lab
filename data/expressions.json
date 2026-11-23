@@ -1738,5 +1738,75 @@
     "learned": "2026-11-20",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "streamline",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(절차·양식을) 간소화하다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "criteria",
+    "kind": "단어",
+    "pos": "n.",
+    "meaning": "(평가·선정) 기준",
+    "topic": "인사·노무",
+    "learned": "2026-11-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "recur",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(문제가) 다시 발생하다",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "liable",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(법적으로) 배상 책임이 있는",
+    "topic": "수출입·통관",
+    "learned": "2026-11-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'd like your input on ~ before I ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~하기 전에 ~에 대한 의견을 듣고 싶습니다",
+    "topic": "인사·노무",
+    "learned": "2026-11-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "To prevent ~ from ~ing again, please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~가 다시 ~하지 않도록 ~해 주세요",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-23",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I have yet to receive ~, which I asked for on ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~에 요청한 ~을 아직 받지 못했습니다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-23",
+    "wrong": false,
+    "first_used": null
   }
 ]
