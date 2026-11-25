@@ -1808,5 +1808,75 @@
     "learned": "2026-11-23",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "unauthorized",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "승인받지 않은, 무단의 — not approved 대신",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "specify",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(문서에) 명시하다 — show / write clearly 대신",
+    "topic": "구매·품의",
+    "learned": "2026-11-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "cap",
+    "kind": "단어",
+    "pos": "v. / n.",
+    "meaning": "상한을 두다, 상한 — keep it under 대신",
+    "topic": "구매·품의",
+    "learned": "2026-11-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "carry over",
+    "kind": "단어",
+    "pos": "phr. v.",
+    "meaning": "(다음 기간·목록으로) 넘기다 — move to next week 대신",
+    "topic": "구매·품의",
+    "learned": "2026-11-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please do not ~ without my prior approval.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "제 사전 승인 없이 ~하지 마세요",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Until ~ is updated, please ~ for now.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~가 고쳐질 때까지 우선 ~해 주세요",
+    "topic": "총무·시설",
+    "learned": "2026-11-25",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "~ is well above our usual level, so please ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~가 평소보다 훨씬 높으니 ~해 주세요",
+    "topic": "구매·품의",
+    "learned": "2026-11-25",
+    "wrong": false,
+    "first_used": null
   }
 ]

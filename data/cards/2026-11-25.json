@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-25",
+  "weekday": "수",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/18 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "(직원) 이직, 이직률 — staff leaving 대신",
+        "answer": "turnover",
+        "flag": ""
+      },
+      {
+        "prompt": "신입 직원 적응 교육 — training for new staff 대신",
+        "answer": "onboarding",
+        "flag": ""
+      },
+      {
+        "prompt": "잘 안 쓰이는, 활용이 적은 — not used much 대신",
+        "answer": "underused",
+        "flag": ""
+      },
+      {
+        "prompt": "(다른 자료와) 대조해 확인하다 — check with 대신",
+        "answer": "cross-check",
+        "flag": ""
+      },
+      {
+        "prompt": "제가 알기로는 ~입니다. 틀리면 알려 주세요 (패턴)",
+        "answer": "My understanding is that ~. Please correct me if I'm wrong.",
+        "flag": ""
+      },
+      {
+        "prompt": "~에 따라 ~할지 정하겠습니다 (패턴)",
+        "answer": "Depending on ~, we will decide whether to ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~한 주된 이유는 ~이기 때문입니다 (패턴)",
+        "answer": "The main reason (why) ~ is that ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "수령, 받음: Please confirm ____ of the passport copy.",
+        "answer": "receipt",
+        "flag": "오답"
+      },
+      {
+        "prompt": "전담의 — only for this job 대신: a ____ team",
+        "answer": "dedicated",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "무단의: Using the company car for personal trips is u___________ use.",
+      "answer": "unauthorized"
+    },
+    {
+      "prompt": "명시하다: The contract must s______ who pays for lift on/off.",
+      "answer": "specify"
+    },
+    {
+      "prompt": "상한을 두다: HQ wants to c__ the monthly taxi cost at 2 million VND.",
+      "answer": "cap"
+    },
+    {
+      "prompt": "넘기다: Unused leave days cannot be c______ o___ to next year.",
+      "answer": "carried over"
+    },
+    {
+      "prompt": "이번 달 전기 요금이 평소보다 훨씬 높으니 안 쓰는 에어컨은 꺼 주세요. (주어·동사 넣기)",
+      "answer": "This month's electricity bill is well above our usual level, so please turn off unused air conditioners."
+    },
+    {
+      "prompt": "온라인 양식이 고쳐질 때까지 우선 종이 양식을 써 주세요. (주어·동사 넣기)",
+      "answer": "Until the online form is updated, please use the paper form for now."
+    }
+  ],
+  "words": [
+    {
+      "word": "unauthorized",
+      "pos": "adj.",
+      "meaning": "승인받지 않은, 무단의 — not approved 대신",
+      "example": "The price change on the invoice was unauthorized, so please revise it.",
+      "collocations": "an unauthorized change / unauthorized use"
+    },
+    {
+      "word": "specify",
+      "pos": "v.",
+      "meaning": "(문서에) 명시하다 — show / write clearly 대신",
+      "example": "Please ask the supplier to specify the cushion strip in the quotation.",
+      "collocations": "specify the price / as specified in the contract"
+    },
+    {
+      "word": "cap",
+      "pos": "v. / n.",
+      "meaning": "상한을 두다, 상한 — keep it under 대신",
+      "example": "Please cap this week's consumables order at our weekly budget.",
+      "collocations": "cap A at B / a budget cap"
+    },
+    {
+      "word": "carry over",
+      "pos": "phr. v.",
+      "meaning": "(다음 기간·목록으로) 넘기다 — move to next week 대신",
+      "example": "Please carry over the three items to next week's list.",
+      "collocations": "carry over to next month / carried-over items"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Please do not ~ without my prior approval.",
+      "meaning": "제 사전 승인 없이 ~하지 마세요 (Do not change what I have not approved 대신, 선을 분명히 그을 때)",
+      "skeleton": "Please do not + [동사] + without my prior approval",
+      "email": "Please do not change an approved price without my prior approval.",
+      "spoken": "Check with me first before you change it."
+    },
+    {
+      "pattern": "Until ~ is updated, please ~ for now.",
+      "meaning": "~가 고쳐질 때까지 우선 ~해 주세요 (임시 처리 방법을 알려 줄 때)",
+      "skeleton": "Until + [주어] + is updated, please + [동사] + for now",
+      "email": "Until the form is updated, please write the price in Special note for now.",
+      "spoken": "For now, just put it in the note."
+    },
+    {
+      "pattern": "~ is well above our usual level, so please ~.",
+      "meaning": "~가 평소보다 훨씬 높으니 ~해 주세요 (too high / much more than before 대신)",
+      "skeleton": "[주어] + is well above our usual level, so please + [동사]",
+      "email": "This week's total is well above our usual level, so please buy only what we need.",
+      "spoken": "That's way more than usual. Just buy what we need."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/23 보낸 메일(생산소모품 주간 한도·다음 주 이월, 승인 안 된 단가 변경 지적, 절단기 점검 견적 항목 명시 요청, 인력 요청 온라인 양식 임시 처리)에서 고름. 11/24 보낸 메일 없음, 받은 메일은 따로 읽지 않음."
+}
