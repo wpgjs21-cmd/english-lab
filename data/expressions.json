@@ -1878,5 +1878,75 @@
     "learned": "2026-11-25",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "explore",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(방법·가능성을) 알아보다, 검토하다 — look at 대신",
+    "topic": "구매·품의",
+    "learned": "2026-11-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "commit",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(하겠다고) 확답하다, 약속하다 — agree / promise 대신",
+    "topic": "수출입·통관",
+    "learned": "2026-11-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "disrupt",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(일정·작업에) 지장을 주다 — affect / make problems 대신",
+    "topic": "수출입·통관",
+    "learned": "2026-11-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "charge",
+    "kind": "단어",
+    "pos": "v.",
+    "meaning": "(요금을) 청구하다, 받다 — take money from 대신",
+    "topic": "인사·노무",
+    "learned": "2026-11-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "The same applies to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~도 마찬가지입니다",
+    "topic": "수출입·통관",
+    "learned": "2026-11-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please let me know what caused ~ and when ~ will ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~의 원인과 ~가 언제 ~될지 알려 주세요",
+    "topic": "수출입·통관",
+    "learned": "2026-11-26",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Even though ~, ~ still ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~이긴 하지만 그래도 ~합니다",
+    "topic": "회의·대화",
+    "learned": "2026-11-26",
+    "wrong": false,
+    "first_used": null
   }
 ]
