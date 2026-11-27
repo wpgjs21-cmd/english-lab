@@ -1948,5 +1948,75 @@
     "learned": "2026-11-26",
     "wrong": false,
     "first_used": null
+  },
+  {
+    "expression": "tentative",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "잠정적인, 아직 바뀔 수 있는",
+    "topic": "구매·품의",
+    "learned": "2026-11-27",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "obsolete",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(더 이상 안 쓰는) 오래된, 쓸모없어진",
+    "topic": "수출입·통관",
+    "learned": "2026-11-27",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "physically",
+    "kind": "단어",
+    "pos": "adv.",
+    "meaning": "실제로(눈으로 보이게), 실물로",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-27",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "valid",
+    "kind": "단어",
+    "pos": "adj.",
+    "meaning": "(법적·공식적으로) 유효한",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-27",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Your mail mentions ~, but I only see ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "메일에는 ~라고 되어 있는데, 제게는 ~만 보입니다",
+    "topic": "구매·품의",
+    "learned": "2026-11-27",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "Please do not ~ just to ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "단지 ~하려고 ~하지는 마세요",
+    "topic": "컴플라이언스·감사",
+    "learned": "2026-11-27",
+    "wrong": false,
+    "first_used": null
+  },
+  {
+    "expression": "I'll ~ and go over it with you before ~.",
+    "kind": "패턴",
+    "pos": "",
+    "meaning": "~해서 ~ 전에 같이 검토하겠습니다",
+    "topic": "인사·노무",
+    "learned": "2026-11-27",
+    "wrong": false,
+    "first_used": null
   }
 ]

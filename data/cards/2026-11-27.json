@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-27",
+  "weekday": "금",
+  "note": "",
+  "routine": "단어 5분(예문 소리 내어 2번) → 패턴 5분(뼈대에 내 문장 넣기) → 위를 가리고 문제 3분 → 복습 2분 → 오늘 쓸 표현 1개 골라 실제 메일에 쓰기",
+  "scorecard": null,
+  "review": {
+    "title": "복습 (11/26·11/20 표현 + 오답 2개), 영어로 먼저 써 보기",
+    "items": [
+      {
+        "prompt": "(방법·가능성을) 알아보다, 검토하다 — look at 대신",
+        "answer": "explore",
+        "flag": ""
+      },
+      {
+        "prompt": "(하겠다고) 확답하다, 약속하다 — agree / promise 대신",
+        "answer": "commit",
+        "flag": ""
+      },
+      {
+        "prompt": "(일정·작업에) 지장을 주다 — affect 대신",
+        "answer": "disrupt",
+        "flag": ""
+      },
+      {
+        "prompt": "(요금을) 청구하다 — take money from 대신",
+        "answer": "charge",
+        "flag": ""
+      },
+      {
+        "prompt": "~도 마찬가지입니다 (패턴)",
+        "answer": "The same applies to ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~의 원인과 ~가 언제 ~될지 알려 주세요 (패턴)",
+        "answer": "Please let me know what caused ~ and when ~ will ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "~이긴 하지만 그래도 ~합니다 (패턴)",
+        "answer": "Even though ~, ~ still ~.",
+        "flag": ""
+      },
+      {
+        "prompt": "배분하다, 나눠 배정하다 — divide 대신",
+        "answer": "allocate",
+        "flag": ""
+      },
+      {
+        "prompt": "(잘못된 것을) 바로잡다 — fix 대신",
+        "answer": "rectify",
+        "flag": ""
+      },
+      {
+        "prompt": "(범위·일정이) 겹치다 — same time 대신",
+        "answer": "overlap",
+        "flag": ""
+      },
+      {
+        "prompt": "(결정의) 근거, 이유 — reason 대신",
+        "answer": "rationale",
+        "flag": ""
+      },
+      {
+        "prompt": "(자료·숫자·번역이) 정확한 — correct 대신: Please check that the Vietnamese text is ____.",
+        "answer": "accurate",
+        "flag": "오답"
+      },
+      {
+        "prompt": "타당한 이유를 대다 — explain why 대신: Please ____ the purchase of 3 units.",
+        "answer": "justify",
+        "flag": "오답"
+      }
+    ]
+  },
+  "cover_practice": [
+    {
+      "prompt": "잠정적인: The t________ date for the fire drill is Dec 10.",
+      "answer": "tentative"
+    },
+    {
+      "prompt": "오래돼 안 쓰는: Please list the o_______ fabric that we can dispose of.",
+      "answer": "obsolete"
+    },
+    {
+      "prompt": "실제로: Please count the rolls that are p_________ on the rack, not only in the system.",
+      "answer": "physically"
+    },
+    {
+      "prompt": "유효한: Is this work permit still v____ after the job change?",
+      "answer": "valid"
+    },
+    {
+      "prompt": "메일에는 첨부가 3개라고 되어 있는데, 저는 2개만 보입니다. (주어·동사 넣기)",
+      "answer": "Your mail mentions three attachments, but I only see two."
+    },
+    {
+      "prompt": "제가 초안을 만들어서 금요일 전에 같이 검토하겠습니다. (주어·동사 넣기)",
+      "answer": "I'll make the draft and go over it with you before Friday."
+    }
+  ],
+  "words": [
+    {
+      "word": "tentative",
+      "pos": "adj.",
+      "meaning": "잠정적인, 아직 바뀔 수 있는 — may change 대신",
+      "example": "Supplier A is our tentative choice, because another quote may be better.",
+      "collocations": "a tentative date / tentatively scheduled for Dec 10"
+    },
+    {
+      "word": "obsolete",
+      "pos": "adj.",
+      "meaning": "(더 이상 안 쓰는) 오래된, 쓸모없어진 — old / finished 대신",
+      "example": "Please note if the obsolete fabric from old buyers can still be used.",
+      "collocations": "obsolete stock / become obsolete"
+    },
+    {
+      "word": "physically",
+      "pos": "adv.",
+      "meaning": "실제로(눈으로 보이게), 실물로 — really 대신",
+      "example": "Please check if the fabric is physically in the warehouse.",
+      "collocations": "physically count / physically check the stock"
+    },
+    {
+      "word": "valid",
+      "pos": "adj.",
+      "meaning": "(법적·공식적으로) 유효한 — OK / legal 대신",
+      "example": "Please confirm whether this receipt is valid proof of our environmental registration.",
+      "collocations": "valid proof / valid until (날짜)"
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "Your mail mentions ~, but I only see ~.",
+      "meaning": "메일에는 ~라고 되어 있는데, 제게는 ~만 보입니다 (메일 내용과 첨부·숫자가 안 맞을 때 탓하지 않고 짚기)",
+      "skeleton": "Your mail mentions + [명사], but + I + only see + [명사]",
+      "email": "Your mail mentions three suppliers, but I only see two in the file.",
+      "spoken": "You said three, but I only see two."
+    },
+    {
+      "pattern": "Please do not ~ just to ~.",
+      "meaning": "단지 ~하려고 ~하지는 마세요 (숫자·기한 맞추려고 규정을 어기지 않게)",
+      "skeleton": "Please do not + [동사] + just to + [동사]",
+      "email": "Please do not keep the waste longer than allowed just to stay under the weight limit.",
+      "spoken": "Don't hold it longer just to hit the limit."
+    },
+    {
+      "pattern": "I'll ~ and go over it with you before ~.",
+      "meaning": "~해서 ~ 전에 같이 검토하겠습니다 (확정 전에 담당자와 먼저 맞춰 볼 때)",
+      "skeleton": "I'll + [동사] + and go over it with you before + [날짜 / 주어+동사]",
+      "email": "I'll prepare a proposal for the evaluation amounts and go over it with you before Dec 5.",
+      "spoken": "I'll draft it, and we can go over it together."
+    }
+  ],
+  "rewrite": {
+    "original": "",
+    "improved": "",
+    "note": ""
+  },
+  "source": "11/26 보낸 메일(퓨징기 벨트 견적 회신, QR 원단 재고 바이어 확인, 환경 등록 증빙, 폐기물 계약 갱신, 2027 급여 평가 일정)에서 고름. 받은 메일은 따로 읽지 않음."
+}
