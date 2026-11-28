@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-28",
+  "weekday": "토",
+  "scope": "11/23~11/27 표현 28개 중 14개 + 지난 오답 4개 + 2주 지난 표현 2개",
+  "count": 20,
+  "time_limit_min": 15,
+  "grading_rule": "정답 1, 부분 정답 0.5(철자 한 글자·관사·시제만 틀림), 오답 0, 빈칸 0. 품사까지 틀리면 0. 영작(C·D)은 지정 패턴을 썼으면 틀 0.5, 패턴 뒤 절에 주어·동사가 맞게 있고 뜻이 통하면 절 0.5.",
+  "memo": "이번 주 표현 28개(단어 16·패턴 12, 11/24 카드 없음) 중 단어 8개·패턴 6개를 날짜별로 고르게 뽑음(A8·B6·C4·D2). 지난 오답 중 한 번도 재출제하지 않은 prioritize·accurate를 A로, 두 번 연속 틀린 feasible·log를 새 문장 B로 재출제(11/14·11/21 시험은 아직 채점 전). 유지율은 2주 넘은 withhold(11/05)·overdue(11/10).",
+  "questions": [
+    {
+      "no": 1,
+      "type": "A",
+      "prompt": "(절차·양식을) 간소화하다 — make simple / make easier 대신",
+      "answer": "streamline",
+      "accept": [],
+      "expression": "streamline",
+      "kind": "단어",
+      "learned": "2026-11-23",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "짝꿍: streamline the process / streamline the form. 과거형 streamlined."
+    },
+    {
+      "no": 2,
+      "type": "B",
+      "prompt": "Overtime without the manager's approval is u___________ and will not be paid.",
+      "answer": "unauthorized",
+      "accept": [
+        "unauthorised"
+      ],
+      "expression": "unauthorized",
+      "kind": "단어",
+      "learned": "2026-11-25",
+      "topic": "컴플라이언스·감사",
+      "reissue": "신규",
+      "note": "승인받지 않은, 무단의. un + authorized. unauthorized overtime / unauthorized change."
+    },
+    {
+      "no": 3,
+      "type": "C",
+      "prompt": "\"I'd like your input on ~ before I ~.\"으로 영작: 새 통근버스 노선을 본사에 보내기 전에, 그 노선에 대한 의견을 듣고 싶습니다. (주어·동사 넣기)",
+      "answer": "I'd like your input on the new bus route before I send it to HQ.",
+      "accept": [
+        "I would like your input on the new bus route before I send it to head office.",
+        "I'd like your input on the new shuttle bus route before I send it to HQ."
+      ],
+      "expression": "I'd like your input on ~ before I ~.",
+      "kind": "패턴",
+      "learned": "2026-11-23",
+      "topic": "인사·노무",
+      "reissue": "신규",
+      "note": "input on + 명사, before 뒤 주어 I + 현재형 send(will 안 씀).",
+      "pattern": "like your input on"
+    },
+    {
+      "no": 4,
+      "type": "A",
+      "prompt": "우선 처리하다, 먼저 하다 — do first 대신",
+      "answer": "prioritize",
+      "accept": [
+        "prioritise"
+      ],
+      "expression": "prioritize",
+      "kind": "단어",
+      "learned": "2026-10-29",
+      "topic": "구매·품의",
+      "reissue": "오답",
+      "note": "짝꿍: prioritize the urgent items. 명사 priority. 10/31 오답 첫 재출제."
+    },
+    {
+      "no": 5,
+      "type": "B",
+      "prompt": "Please l__ every visitor's name and arrival time in the gate book.",
+      "answer": "log",
+      "accept": [
+        "record"
+      ],
+      "expression": "log",
+      "kind": "단어",
+      "learned": "2026-10-23",
+      "topic": "컴플라이언스·감사",
+      "reissue": "오답",
+      "note": "이름·시간·수치를 대장에 적어 둔다. log ~ in the book. 두 번 연속 오답이라 새 문장으로 재출제."
+    },
+    {
+      "no": 6,
+      "type": "A",
+      "prompt": "잠정적인, 아직 바뀔 수 있는 — not final 대신",
+      "answer": "tentative",
+      "accept": [],
+      "expression": "tentative",
+      "kind": "단어",
+      "learned": "2026-11-27",
+      "topic": "구매·품의",
+      "reissue": "신규",
+      "note": "짝꿍: a tentative date / tentative choice. 부사 tentatively."
+    },
+    {
+      "no": 7,
+      "type": "D",
+      "prompt": "\"Please do not ~ without my prior approval.\" 패턴으로 고쳐 쓰기: Don't buy new office chairs if I didn't say OK first.",
+      "answer": "Please do not buy new office chairs without my prior approval.",
+      "accept": [
+        "Please don't buy new office chairs without my prior approval."
+      ],
+      "expression": "Please do not ~ without my prior approval.",
+      "kind": "패턴",
+      "learned": "2026-11-25",
+      "topic": "컴플라이언스·감사",
+      "reissue": "신규",
+      "note": "do not 뒤 동사원형 buy, without 뒤는 명사(my prior approval).",
+      "pattern": "without my prior approval"
+    },
+    {
+      "no": 8,
+      "type": "B",
+      "prompt": "The power cut on Monday may d______ production on Line 3.",
+      "answer": "disrupt",
+      "accept": [],
+      "expression": "disrupt",
+      "kind": "단어",
+      "learned": "2026-11-26",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "일정·작업에 지장을 주다. may 뒤 동사원형. 명사 disruption."
+    },
+    {
+      "no": 9,
+      "type": "A",
+      "prompt": "(지급·승인을) 보류하다 — not pay yet / stop for now 대신",
+      "answer": "withhold",
+      "accept": [],
+      "expression": "withhold",
+      "kind": "단어",
+      "learned": "2026-11-05",
+      "topic": "구매·품의",
+      "reissue": "유지율",
+      "note": "짝꿍: withhold payment until ~. 과거형 withheld. 11/05 표현(2주 이상)."
+    },
+    {
+      "no": 10,
+      "type": "C",
+      "prompt": "\"I have yet to receive ~, which I asked for on ~.\"으로 영작: 11월 24일에 요청한 10월 결근 보고서를 아직 받지 못했습니다.",
+      "answer": "I have yet to receive the October absence report, which I asked for on Nov 24.",
+      "accept": [
+        "I have yet to receive the absence report for October, which I asked for on November 24."
+      ],
+      "expression": "I have yet to receive ~, which I asked for on ~.",
+      "kind": "패턴",
+      "learned": "2026-11-23",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "have yet to + 동사원형. which 뒤 주어 I + 과거형 asked for.",
+      "pattern": "yet to receive"
+    },
+    {
+      "no": 11,
+      "type": "A",
+      "prompt": "(자료·숫자·번역이) 정확한 — correct / right 대신",
+      "answer": "accurate",
+      "accept": [],
+      "expression": "accurate",
+      "kind": "단어",
+      "learned": "2026-10-30",
+      "topic": "인사·노무",
+      "reissue": "오답",
+      "note": "짝꿍: accurate data / accurate translation. c 두 번. 10/31 오답 첫 재출제."
+    },
+    {
+      "no": 12,
+      "type": "B",
+      "prompt": "Is it f_______ to finish the fire drill before the buyer audit next week?",
+      "answer": "feasible",
+      "accept": [],
+      "expression": "feasible",
+      "kind": "단어",
+      "learned": "2026-10-22",
+      "topic": "구매·품의",
+      "reissue": "오답",
+      "note": "현장에서 실제로 할 수 있는지. Is it feasible to ~? 두 번 연속 오답이라 새 문장으로 재출제."
+    },
+    {
+      "no": 13,
+      "type": "A",
+      "prompt": "(하겠다고) 확답하다, 약속하다 — say yes / promise 대신 (뒤에 to)",
+      "answer": "commit",
+      "accept": [
+        "commit to"
+      ],
+      "expression": "commit",
+      "kind": "단어",
+      "learned": "2026-11-26",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "짝꿍: commit to a date / commit to a clause. 과거형 committed(t 두 번)."
+    },
+    {
+      "no": 14,
+      "type": "C",
+      "prompt": "\"Until ~ is updated, please ~ for now.\"으로 영작: 시스템이 고쳐질 때까지 우선 입고 수량을 손으로 적어 주세요. (주어·동사 넣기)",
+      "answer": "Until the system is updated, please write the receiving quantity by hand for now.",
+      "accept": [
+        "Until the system is updated, please write down the received quantity manually for now."
+      ],
+      "expression": "Until ~ is updated, please ~ for now.",
+      "kind": "패턴",
+      "learned": "2026-11-25",
+      "topic": "총무·시설",
+      "reissue": "신규",
+      "note": "Until 뒤 주어 the system + is updated, please 뒤 동사원형 write.",
+      "pattern": "is updated, please"
+    },
+    {
+      "no": 15,
+      "type": "B",
+      "prompt": "Please list the o_______ spare parts that we can sell or throw away.",
+      "answer": "obsolete",
+      "accept": [],
+      "expression": "obsolete",
+      "kind": "단어",
+      "learned": "2026-11-27",
+      "topic": "수출입·통관",
+      "reissue": "신규",
+      "note": "더 이상 안 쓰는. obsolete parts / obsolete fabric. 끝이 -lete."
+    },
+    {
+      "no": 16,
+      "type": "A",
+      "prompt": "(문제가) 다시 발생하다 — happen again 대신",
+      "answer": "recur",
+      "accept": [],
+      "expression": "recur",
+      "kind": "단어",
+      "learned": "2026-11-23",
+      "topic": "컴플라이언스·감사",
+      "reissue": "신규",
+      "note": "짝꿍: make sure it does not recur. 과거형 recurred(r 두 번)."
+    },
+    {
+      "no": 17,
+      "type": "D",
+      "prompt": "\"I'll ~ and go over it with you before ~.\" 패턴으로 고쳐 쓰기: I will make the training plan. Then we look at it together before next Friday.",
+      "answer": "I'll make the training plan and go over it with you before next Friday.",
+      "accept": [
+        "I'll prepare the training plan and go over it with you before next Friday.",
+        "I will make the training plan and go over it with you before next Friday."
+      ],
+      "expression": "I'll ~ and go over it with you before ~.",
+      "kind": "패턴",
+      "learned": "2026-11-27",
+      "topic": "인사·노무",
+      "reissue": "신규",
+      "note": "주어 I + will make, and 뒤 go over it with you. 두 문장을 and로 한 문장.",
+      "pattern": "go over it with you"
+    },
+    {
+      "no": 18,
+      "type": "B",
+      "prompt": "The water bill for October is o______, so please pay it today.",
+      "answer": "overdue",
+      "accept": [],
+      "expression": "overdue",
+      "kind": "단어",
+      "learned": "2026-11-10",
+      "topic": "총무·시설",
+      "reissue": "유지율",
+      "note": "기한이 지난. an overdue bill / overdue report. 11/10 표현(2주 이상)."
+    },
+    {
+      "no": 19,
+      "type": "A",
+      "prompt": "상한을 두다, 상한 — set a maximum 대신 (세 글자)",
+      "answer": "cap",
+      "accept": [],
+      "expression": "cap",
+      "kind": "단어",
+      "learned": "2026-11-25",
+      "topic": "구매·품의",
+      "reissue": "신규",
+      "note": "짝꿍: cap ~ at ~ (cap the order at our budget). 과거형 capped."
+    },
+    {
+      "no": 20,
+      "type": "C",
+      "prompt": "\"Please let me know what caused ~ and when ~ will ~.\"으로 영작: 지게차 고장의 원인과 수리가 언제 끝날지 알려 주세요. (주어·동사 넣기)",
+      "answer": "Please let me know what caused the forklift breakdown and when the repair will be finished.",
+      "accept": [
+        "Please let me know what caused the forklift problem and when the repair will be done."
+      ],
+      "expression": "Please let me know what caused ~ and when ~ will ~.",
+      "kind": "패턴",
+      "learned": "2026-11-26",
+      "topic": "총무·시설",
+      "reissue": "신규",
+      "note": "what caused + 명사, when 뒤 주어 the repair + will be finished.",
+      "pattern": "what caused"
+    }
+  ]
+}
